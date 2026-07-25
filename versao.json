@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "datasetVersion": "1.0.0",
+  "generatedAt": "2026-07-25T21:00:00-03:00",
+  "files": {
+    "radios": "radios.json",
+    "radiosEsp32": "radios-esp32.json",
+    "categorias": "categorias.json",
+    "estados": "estados.json",
+    "municipios": "municipios.json"
+  },
+  "minimumAppVersion": "1.0.0",
+  "minimumFirmwareVersion": "3.0.0"
+}

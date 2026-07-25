@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "observacao": "Arquivo inicial reduzido. A lista completa de municípios poderá ser adicionada depois.",
+  "municipios": [
+    {
+      "id": "go-rio-verde",
+      "nome": "Rio Verde",
+      "uf": "GO",
+      "ativo": true
+    },
+    {
+      "id": "ma-sao-luis",
+      "nome": "São Luís",
+      "uf": "MA",
+      "ativo": true
+    }
+  ]
+}

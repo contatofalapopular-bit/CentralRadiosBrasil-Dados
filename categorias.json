@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "categorias": [
+    {
+      "id": "noticias",
+      "nome": "Notícias",
+      "ativa": true
+    },
+    {
+      "id": "jornalismo",
+      "nome": "Jornalismo",
+      "ativa": true
+    },
+    {
+      "id": "musica",
+      "nome": "Música",
+      "ativa": true
+    },
+    {
+      "id": "sertanejo",
+      "nome": "Sertanejo",
+      "ativa": true
+    },
+    {
+      "id": "gospel",
+      "nome": "Gospel",
+      "ativa": true
+    },
+    {
+      "id": "pop",
+      "nome": "Pop",
+      "ativa": true
+    },
+    {
+      "id": "rock",
+      "nome": "Rock",
+      "ativa": true
+    },
+    {
+      "id": "forro",
+      "nome": "Forró",
+      "ativa": true
+    },
+    {
+      "id": "esportes",
+      "nome": "Esportes",
+      "ativa": true
+    },
+    {
+      "id": "comunitaria",
+      "nome": "Comunitária",
+      "ativa": true
+    },
+    {
+      "id": "educativa",
+      "nome": "Educativa",
+      "ativa": true
+    },
+    {
+      "id": "ecletica",
+      "nome": "Eclética",
+      "ativa": true
+    }
+  ]
+}
