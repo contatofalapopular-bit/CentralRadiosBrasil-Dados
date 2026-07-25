@@ -1,0 +1,104 @@
+{
+  "id": "br-go-rio-verde-radio-fala-popular",
+  "nome": "Rádio Fala Popular",
+  "nomeCurto": "Fala Popular",
+  "slug": "radio-fala-popular",
+  "tipo": "web",
+  "ativa": true,
+  "verificada": true,
+  "descricao": "Rádio brasileira de notícias, informação e participação popular.",
+  "slogan": "A VOZ DO POVO, A FORÇA DA NOTÍCIA!",
+  "idioma": "pt-BR",
+  "conteudoExplicito": false,
+  "localizacao": {
+    "pais": "Brasil",
+    "codigoPais": "BR",
+    "estado": "Goiás",
+    "uf": "GO",
+    "cidade": "Rio Verde",
+    "regiao": "Centro-Oeste",
+    "latitude": null,
+    "longitude": null,
+    "fusoHorario": "America/Sao_Paulo"
+  },
+  "categoriaPrincipal": "Notícias",
+  "categorias": [
+    "Notícias",
+    "Jornalismo",
+    "Informação"
+  ],
+  "tags": [
+    "rio verde",
+    "goiás",
+    "notícias",
+    "fala popular"
+  ],
+  "frequencia": null,
+  "imagens": {
+    "original": null,
+    "quadrada": null,
+    "miniatura": null,
+    "capa": null
+  },
+  "contatos": {
+    "site": "https://www.falapopular.com.br",
+    "email": null,
+    "telefone": null,
+    "whatsapp": null,
+    "instagram": "https://www.instagram.com/falapopular_br",
+    "facebook": null,
+    "youtube": null,
+    "tiktok": null
+  },
+  "streams": [
+    {
+      "id": "principal",
+      "url": "https://stm19.xcast.com.br:10792/",
+      "prioridade": 1,
+      "ativo": true,
+      "codec": "desconhecido",
+      "bitrateKbps": null,
+      "formato": "stream-direto",
+      "https": true,
+      "redireciona": null,
+      "compatibilidade": {
+        "navegador": true,
+        "android": true,
+        "ios": true,
+        "esp32": true
+      },
+      "monitoramento": {
+        "status": "nao_testado",
+        "ultimaVerificacao": null,
+        "latenciaMs": null,
+        "uptime24h": null,
+        "uptime7d": null,
+        "erro": null
+      }
+    }
+  ],
+  "programacao": [
+    {
+      "id": "o-povo-falou-ta-falado",
+      "nome": "O POVO FALOU TÁ FALADO",
+      "apresentador": "Dailson",
+      "dias": [
+        "segunda",
+        "quarta",
+        "sexta"
+      ],
+      "inicio": "18:00",
+      "fim": "19:00",
+      "timezone": "America/Sao_Paulo",
+      "ativo": true
+    }
+  ],
+  "statusCadastro": "publicado",
+  "auditoria": {
+    "criadoEm": "2026-07-25T21:00:00-03:00",
+    "atualizadoEm": "2026-07-25T21:00:00-03:00",
+    "criadoPor": "admin",
+    "atualizadoPor": "admin",
+    "versao": 1
+  }
+}

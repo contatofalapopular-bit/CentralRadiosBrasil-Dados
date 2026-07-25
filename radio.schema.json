@@ -1,58 +1,601 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Central Rádios Brasil - Rádio",
+  "$id": "https://centralradiosbrasil.github.io/schema/radio.schema.json",
+  "title": "Central Rádios Brasil — Cadastro de Rádio v1.0",
+  "description": "Especificação oficial para cadastro, validação, publicação e consumo de emissoras no ecossistema Central Rádios Brasil.",
   "type": "object",
+  "additionalProperties": false,
   "required": [
     "id",
     "nome",
-    "uf",
-    "cidade",
+    "slug",
+    "tipo",
+    "ativa",
+    "verificada",
+    "idioma",
+    "localizacao",
     "categoriaPrincipal",
-    "streams"
+    "categorias",
+    "streams",
+    "statusCadastro",
+    "auditoria"
   ],
   "properties": {
     "id": {
       "type": "string",
-      "minLength": 3
+      "pattern": "^br-[a-z]{2}-[a-z0-9-]+-[a-z0-9-]+$",
+      "minLength": 10,
+      "maxLength": 120,
+      "description": "Identificador estável e único. Formato recomendado: br-uf-cidade-nome-da-radio."
     },
     "nome": {
       "type": "string",
-      "minLength": 2
+      "minLength": 2,
+      "maxLength": 120
     },
-    "uf": {
-      "type": "string",
-      "pattern": "^[A-Z]{2}$"
+    "nomeCurto": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 2,
+      "maxLength": 60
     },
-    "cidade": {
+    "slug": {
       "type": "string",
-      "minLength": 2
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "minLength": 2,
+      "maxLength": 100
+    },
+    "tipo": {
+      "type": "string",
+      "enum": [
+        "web",
+        "fm",
+        "am",
+        "fm-web",
+        "am-web",
+        "comunitaria",
+        "educativa",
+        "universitaria"
+      ]
+    },
+    "ativa": {
+      "type": "boolean"
+    },
+    "verificada": {
+      "type": "boolean"
+    },
+    "descricao": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 1000
+    },
+    "slogan": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 200
+    },
+    "idioma": {
+      "type": "string",
+      "pattern": "^[a-z]{2}(?:-[A-Z]{2})?$",
+      "default": "pt-BR"
+    },
+    "conteudoExplicito": {
+      "type": "boolean",
+      "default": false
+    },
+    "localizacao": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pais",
+        "codigoPais",
+        "estado",
+        "uf",
+        "cidade",
+        "regiao"
+      ],
+      "properties": {
+        "pais": {
+          "type": "string",
+          "const": "Brasil"
+        },
+        "codigoPais": {
+          "type": "string",
+          "const": "BR"
+        },
+        "estado": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 40
+        },
+        "uf": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}$"
+        },
+        "cidade": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 100
+        },
+        "regiao": {
+          "type": "string",
+          "enum": [
+            "Norte",
+            "Nordeste",
+            "Centro-Oeste",
+            "Sudeste",
+            "Sul"
+          ]
+        },
+        "latitude": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": -90,
+          "maximum": 90
+        },
+        "longitude": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": -180,
+          "maximum": 180
+        },
+        "fusoHorario": {
+          "type": "string",
+          "default": "America/Sao_Paulo"
+        }
+      }
     },
     "categoriaPrincipal": {
       "type": "string",
-      "minLength": 2
+      "minLength": 2,
+      "maxLength": 50
+    },
+    "categorias": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 10,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 2,
+        "maxLength": 50
+      }
+    },
+    "tags": {
+      "type": "array",
+      "maxItems": 30,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 2,
+        "maxLength": 40
+      }
+    },
+    "frequencia": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "valor": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "unidade": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "MHz",
+            "kHz",
+            null
+          ]
+        },
+        "canal": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 20
+        }
+      }
+    },
+    "imagens": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "original": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "quadrada": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "miniatura": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "capa": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        }
+      }
+    },
+    "contatos": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "site": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "email": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "email"
+        },
+        "telefone": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "whatsapp": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 30
+        },
+        "instagram": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "facebook": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "youtube": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "tiktok": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        }
+      }
     },
     "streams": {
       "type": "array",
       "minItems": 1,
+      "maxItems": 5,
       "items": {
         "type": "object",
+        "additionalProperties": false,
         "required": [
+          "id",
           "url",
           "prioridade",
-          "ativo"
+          "ativo",
+          "formato",
+          "compatibilidade",
+          "monitoramento"
         ],
         "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "maxLength": 40
+          },
           "url": {
             "type": "string",
             "format": "uri"
           },
           "prioridade": {
             "type": "integer",
-            "minimum": 1
+            "minimum": 1,
+            "maximum": 5
+          },
+          "ativo": {
+            "type": "boolean"
+          },
+          "codec": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "mp3",
+              "aac",
+              "aac+",
+              "ogg",
+              "opus",
+              "flac",
+              "desconhecido",
+              null
+            ]
+          },
+          "bitrateKbps": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 8,
+            "maximum": 1000
+          },
+          "formato": {
+            "type": "string",
+            "enum": [
+              "stream-direto",
+              "m3u",
+              "m3u8",
+              "pls",
+              "hls",
+              "dash",
+              "desconhecido"
+            ]
+          },
+          "https": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "redireciona": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "compatibilidade": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "navegador",
+              "android",
+              "ios",
+              "esp32"
+            ],
+            "properties": {
+              "navegador": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "android": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "ios": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "esp32": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              }
+            }
+          },
+          "monitoramento": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "status"
+            ],
+            "properties": {
+              "status": {
+                "type": "string",
+                "enum": [
+                  "online",
+                  "instavel",
+                  "offline",
+                  "nao_testado",
+                  "incompativel"
+                ]
+              },
+              "ultimaVerificacao": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date-time"
+              },
+              "latenciaMs": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "uptime24h": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0,
+                "maximum": 100
+              },
+              "uptime7d": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0,
+                "maximum": 100
+              },
+              "erro": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "maxLength": 500
+              }
+            }
+          }
+        }
+      }
+    },
+    "programacao": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "nome",
+          "dias",
+          "inicio",
+          "fim",
+          "timezone",
+          "ativo"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "nome": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 150
+          },
+          "apresentador": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 120
+          },
+          "dias": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "enum": [
+                "segunda",
+                "terca",
+                "quarta",
+                "quinta",
+                "sexta",
+                "sabado",
+                "domingo"
+              ]
+            }
+          },
+          "inicio": {
+            "type": "string",
+            "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$"
+          },
+          "fim": {
+            "type": "string",
+            "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$"
+          },
+          "timezone": {
+            "type": "string"
           },
           "ativo": {
             "type": "boolean"
           }
+        }
+      }
+    },
+    "statusCadastro": {
+      "type": "string",
+      "enum": [
+        "rascunho",
+        "enviado",
+        "em_validacao",
+        "correcao_solicitada",
+        "aprovado",
+        "publicado",
+        "suspenso",
+        "arquivado"
+      ]
+    },
+    "auditoria": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "criadoEm",
+        "atualizadoEm",
+        "criadoPor",
+        "atualizadoPor",
+        "versao"
+      ],
+      "properties": {
+        "criadoEm": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "atualizadoEm": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "criadoPor": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "atualizadoPor": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "versao": {
+          "type": "integer",
+          "minimum": 1
         }
       }
     }
