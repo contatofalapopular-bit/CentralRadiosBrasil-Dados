@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "geradoEm": "2026-07-26T22:01:31.016Z",
+  "geradoEm": "2026-07-26T22:14:55.874Z",
   "total": 1,
   "radios": [
     {
@@ -8,7 +8,7 @@
       "nome": "Rádio Fala Popular",
       "uf": "GO",
       "cidade": "Rio Verde",
-      "categoria": "Notícias",
+      "categoria": "Sertanejo",
       "logo": {
         "original": "",
         "quadrada": "",
