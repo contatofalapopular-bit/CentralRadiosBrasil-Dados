@@ -1,22 +1,19 @@
 {
   "schemaVersion": "1.0.0",
-  "geradoEm": "2026-07-26T20:47:22.483Z",
+  "geradoEm": "2026-07-26T21:43:22.665Z",
   "total": 1,
   "radios": [
     {
       "id": "br-go-rio-verde-radio-fala-popular",
       "nome": "Rádio Fala Popular",
-      "uf": "GO",
       "cidade": "Rio Verde",
-      "categoria": "Notícias",
-      "logo": {
-        "original": "",
-        "quadrada": "",
-        "miniatura": ""
-      },
-      "url": "https://stm19.xcast.com.br:10792/",
-      "codec": "mp3",
-      "bitrate": null
+      "estado": "GO",
+      "categoria": "Sem categoria",
+      "host": "stm19.xcast.com.br",
+      "porta": 10792,
+      "caminho": "/",
+      "ssl": true,
+      "ativa": true
     }
   ]
 }
