@@ -1,102 +1,105 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-25T21:00:00-03:00",
-  "total": 1,
+  "schemaVersion": "3.0.0",
+  "catalogo": {
+    "nome": "Central Rádios Brasil",
+    "pais": "Brasil",
+    "idioma": "pt-BR",
+    "origem": "contatofalapopular-bit/CentralRadiosBrasil-Dados",
+    "geradoEm": "2026-07-26T20:47:22.483Z"
+  },
+  "totais": {
+    "emissoras": 1,
+    "streams": 1,
+    "estados": 1,
+    "cidades": 1,
+    "categorias": 1,
+    "verificadas": 1
+  },
+  "validacao": {
+    "valido": true,
+    "erros": 0,
+    "avisos": 0
+  },
   "radios": [
     {
       "id": "br-go-rio-verde-radio-fala-popular",
-      "nome": "Rádio Fala Popular",
-      "nomeCurto": "Fala Popular",
       "slug": "radio-fala-popular",
-      "statusCadastro": "publicado",
-      "verificada": true,
-      "ativa": true,
-      "tipo": "web",
-      "descricao": "A voz do povo, a força da notícia!",
+      "nome": "Rádio Fala Popular",
+      "nomeFantasia": "Rádio Fala Popular",
+      "razaoSocial": "fala popular",
       "slogan": "A VOZ DO POVO, A FORÇA DA NOTÍCIA!",
-      "idioma": "pt-BR",
-      "pais": "Brasil",
-      "codigoPais": "BR",
-      "estado": "Goiás",
-      "uf": "GO",
-      "cidade": "Rio Verde",
-      "regiao": "Centro-Oeste",
-      "latitude": null,
-      "longitude": null,
-      "categoriaPrincipal": "Notícias",
-      "categorias": [
-        "Notícias",
-        "Jornalismo",
-        "Informação"
-      ],
-      "tags": [
-        "rio verde",
-        "goiás",
-        "notícias",
-        "fala popular"
-      ],
-      "frequencia": null,
+      "descricao": "A voz do povo, a força da notícia!",
       "logo": {
         "original": "",
         "quadrada": "",
         "miniatura": ""
       },
-      "contatos": {
-        "site": "https://www.falapopular.com.br",
-        "email": "",
+      "tipo": "Web",
+      "frequencia": "",
+      "site": "",
+      "localizacao": {
+        "pais": "Brasil",
+        "uf": "GO",
+        "cidade": "Rio Verde",
+        "cep": "",
+        "endereco": "",
+        "latitude": null,
+        "longitude": null
+      },
+      "classificacao": {
+        "categoriaPrincipal": "Notícias",
+        "categorias": [
+          "Notícias"
+        ],
+        "idioma": "pt-BR",
+        "tags": [
+          "rio verde",
+          "goiás",
+          "notícias",
+          "fala popular"
+        ]
+      },
+      "contato": {
         "telefone": "",
         "whatsapp": "",
-        "instagram": "https://www.instagram.com/falapopular_br",
+        "email": ""
+      },
+      "redesSociais": {
         "facebook": "",
+        "instagram": "",
         "youtube": ""
+      },
+      "status": {
+        "ativa": true,
+        "publica": true,
+        "verificada": true,
+        "destaque": false
       },
       "streams": [
         {
           "id": "principal",
+          "nome": "principal",
           "url": "https://stm19.xcast.com.br:10792/",
-          "prioridade": 1,
-          "ativo": true,
-          "codec": "",
-          "bitrateKbps": null,
-          "formato": "stream-direto",
-          "https": true,
-          "hls": false,
-          "redireciona": null,
-          "compatibilidade": {
-            "navegador": true,
-            "android": true,
-            "ios": true,
-            "esp32": true
-          },
+          "principal": true,
+          "protocolo": "HTTPS",
+          "codec": "mp3",
+          "bitrate": null,
           "monitoramento": {
             "status": "nao_testado",
             "ultimaVerificacao": null,
-            "latenciaMs": null,
-            "uptime24h": null,
-            "uptime7d": null,
-            "erro": null
+            "tempoRespostaMs": null
           }
         }
       ],
-      "programacao": [
-        {
-          "id": "o-povo-falou-ta-falado",
-          "nome": "O POVO FALOU TÁ FALADO",
-          "apresentador": "Dailson",
-          "dias": [],
-          "inicio": "",
-          "fim": "",
-          "timezone": "America/Sao_Paulo",
-          "ativo": true
-        }
-      ],
-      "auditoria": {
-        "criadoEm": "2026-07-25T21:00:00-03:00",
-        "atualizadoEm": "2026-07-25T21:00:00-03:00",
-        "criadoPor": "admin",
-        "atualizadoPor": "admin",
-        "versao": 1
-      }
+      "streamPrincipal": {
+        "id": "principal",
+        "url": "https://stm19.xcast.com.br:10792/",
+        "codec": "mp3",
+        "bitrate": null
+      },
+      "observacoes": "",
+      "criadoEm": "2026-07-26T03:48:16.684Z",
+      "atualizadoEm": "2026-07-26T03:52:53.455Z"
     }
   ]
 }
