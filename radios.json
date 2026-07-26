@@ -5,7 +5,7 @@
     "pais": "Brasil",
     "idioma": "pt-BR",
     "origem": "contatofalapopular-bit/CentralRadiosBrasil-Dados",
-    "geradoEm": "2026-07-26T20:47:22.483Z"
+    "geradoEm": "2026-07-26T21:43:22.665Z"
   },
   "totais": {
     "emissoras": 1,
@@ -13,7 +13,7 @@
     "estados": 1,
     "cidades": 1,
     "categorias": 1,
-    "verificadas": 1
+    "verificadas": 0
   },
   "validacao": {
     "valido": true,
@@ -47,17 +47,12 @@
         "longitude": null
       },
       "classificacao": {
-        "categoriaPrincipal": "Notícias",
+        "categoriaPrincipal": "Sem categoria",
         "categorias": [
-          "Notícias"
+          "Sem categoria"
         ],
         "idioma": "pt-BR",
-        "tags": [
-          "rio verde",
-          "goiás",
-          "notícias",
-          "fala popular"
-        ]
+        "tags": []
       },
       "contato": {
         "telefone": "",
@@ -72,7 +67,7 @@
       "status": {
         "ativa": true,
         "publica": true,
-        "verificada": true,
+        "verificada": false,
         "destaque": false
       },
       "streams": [
