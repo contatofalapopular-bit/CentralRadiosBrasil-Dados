@@ -5,7 +5,7 @@
     "pais": "Brasil",
     "idioma": "pt-BR",
     "origem": "contatofalapopular-bit/CentralRadiosBrasil-Dados",
-    "geradoEm": "2026-07-26T22:01:31.016Z"
+    "geradoEm": "2026-07-26T22:14:55.874Z"
   },
   "totais": {
     "emissoras": 1,
@@ -26,9 +26,9 @@
       "slug": "radio-fala-popular",
       "nome": "Rádio Fala Popular",
       "nomeFantasia": "Rádio Fala Popular",
-      "razaoSocial": "fala popular",
+      "razaoSocial": "Portal Fala Popular",
       "slogan": "A VOZ DO POVO, A FORÇA DA NOTÍCIA!",
-      "descricao": "A voz do povo, a força da notícia!",
+      "descricao": "A voz da nossa gente!",
       "logo": {
         "original": "",
         "quadrada": "",
@@ -47,9 +47,9 @@
         "longitude": null
       },
       "classificacao": {
-        "categoriaPrincipal": "Notícias",
+        "categoriaPrincipal": "Sertanejo",
         "categorias": [
-          "Notícias"
+          "Sertanejo"
         ],
         "idioma": "pt-BR",
         "tags": [
@@ -61,7 +61,7 @@
       },
       "contato": {
         "telefone": "",
-        "whatsapp": "",
+        "whatsapp": "64993117274",
         "email": ""
       },
       "redesSociais": {
@@ -99,7 +99,7 @@
       },
       "observacoes": "",
       "criadoEm": "2026-07-26T03:48:16.684Z",
-      "atualizadoEm": "2026-07-26T03:52:53.455Z"
+      "atualizadoEm": "2026-07-26T22:14:39.640Z"
     }
   ]
 }
