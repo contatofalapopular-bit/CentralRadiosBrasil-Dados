@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "geradoEm": "2026-07-27T00:45:05.966Z",
+  "geradoEm": "2026-07-30T19:15:25.453Z",
   "total": 1,
   "radios": [
     {
@@ -11,7 +11,7 @@
       "categoria": "Sertanejo",
       "host": "stm19.xcast.com.br",
       "porta": 10792,
-      "caminho": "/",
+      "caminho": "/stream",
       "ssl": true,
       "ativa": true
     }
