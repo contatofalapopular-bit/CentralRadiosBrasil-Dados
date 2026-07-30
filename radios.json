@@ -1,11 +1,11 @@
 {
-  "schemaVersion": "3.0.0",
+  "schemaVersion": "3.1.1",
   "catalogo": {
     "nome": "Central Rádios Brasil",
     "pais": "Brasil",
     "idioma": "pt-BR",
     "origem": "contatofalapopular-bit/CentralRadiosBrasil-Dados",
-    "geradoEm": "2026-07-27T00:45:05.966Z"
+    "geradoEm": "2026-07-30T19:15:25.453Z"
   },
   "totais": {
     "emissoras": 1,
@@ -69,6 +69,8 @@
         "instagram": "",
         "youtube": ""
       },
+      "statusCadastro": "publicada",
+      "plano": "gratuito",
       "status": {
         "ativa": true,
         "publica": true,
@@ -77,9 +79,9 @@
       },
       "streams": [
         {
-          "id": "principal",
+          "id": "stream-1785418298156",
           "nome": "principal",
-          "url": "https://stm19.xcast.com.br:10792/",
+          "url": "https://stm19.xcast.com.br:10792/stream",
           "principal": true,
           "protocolo": "HTTPS",
           "codec": "mp3",
@@ -92,14 +94,21 @@
         }
       ],
       "streamPrincipal": {
-        "id": "principal",
-        "url": "https://stm19.xcast.com.br:10792/",
+        "id": "stream-1785418298156",
+        "url": "https://stm19.xcast.com.br:10792/stream",
         "codec": "mp3",
         "bitrate": null
       },
+      "seloOficial": {
+        "status": "nao_solicitado",
+        "codigo": "",
+        "dominio": "",
+        "metodo": "nao_definido",
+        "ultimaVerificacao": null
+      },
       "observacoes": "",
       "criadoEm": "2026-07-26T03:48:16.684Z",
-      "atualizadoEm": "2026-07-26T22:14:39.640Z"
+      "atualizadoEm": "2026-07-30T13:31:54.746Z"
     }
   ]
 }
