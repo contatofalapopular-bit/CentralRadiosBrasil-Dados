@@ -1,11 +1,23 @@
 {
   "schemaVersion": "1.0.0",
-  "geradoEm": "2026-07-31T03:26:40.406Z",
-  "total": 1,
+  "geradoEm": "2026-08-01T00:59:30.905Z",
+  "total": 2,
   "radios": [
     {
-      "id": "br-go-rio-verde-radio-fala-popular",
-      "nome": "Rádio Fala Popular",
+      "id": "radio-capital-do-tomate-1785545220352",
+      "nome": "RÁDIO CAPITAL DO TOMATE",
+      "cidade": "reserva",
+      "estado": "PR",
+      "categoria": "Sertanejo",
+      "host": "stm3.colossocast.com.br",
+      "porta": 7610,
+      "caminho": "/",
+      "ssl": true,
+      "ativa": true
+    },
+    {
+      "id": "radio-fala-popular-1785545311379",
+      "nome": "rádio fala popular",
       "cidade": "Rio Verde",
       "estado": "GO",
       "categoria": "Sertanejo",
