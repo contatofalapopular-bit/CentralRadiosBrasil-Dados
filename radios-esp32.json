@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "geradoEm": "2026-08-01T23:33:05.735Z",
-  "total": 2,
+  "geradoEm": "2026-08-01T23:49:22.847Z",
+  "total": 5,
   "radios": [
     {
       "id": "radio-capital-do-tomate-1785545220352",
@@ -16,6 +16,18 @@
       "ativa": true
     },
     {
+      "id": "radio-esperanca-1785628051841",
+      "nome": "Rádio Esperança",
+      "cidade": "Aracaju",
+      "estado": "SE",
+      "categoria": "Gospel",
+      "host": "servidor33-3.brlogic.com",
+      "porta": 7102,
+      "caminho": "/live",
+      "ssl": true,
+      "ativa": true
+    },
+    {
       "id": "radio-fala-popular-1785545311379",
       "nome": "rádio fala popular",
       "cidade": "Rio Verde",
@@ -23,6 +35,30 @@
       "categoria": "Sertanejo",
       "host": "stm19.xcast.com.br",
       "porta": 10792,
+      "caminho": "/stream",
+      "ssl": true,
+      "ativa": true
+    },
+    {
+      "id": "radio-vida-natal-1785627937391",
+      "nome": "Rádio Vida Natal",
+      "cidade": "Natal",
+      "estado": "RN",
+      "categoria": "Gospel",
+      "host": "stm18.voxhd.com.br",
+      "porta": 8678,
+      "caminho": "/stream",
+      "ssl": true,
+      "ativa": true
+    },
+    {
+      "id": "web-radio-caxias-1785627985907",
+      "nome": "Web Rádio Caxias",
+      "cidade": "Caxias",
+      "estado": "MA",
+      "categoria": "Eclética",
+      "host": "server29.srvsh.com.br",
+      "porta": 6718,
       "caminho": "/stream",
       "ssl": true,
       "ativa": true
