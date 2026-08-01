@@ -1,29 +1,109 @@
 {
   "schemaVersion": "3.1.4",
-  "generatedAt": "2026-08-01T03:20:51.705Z",
+  "generatedAt": "2026-08-01T23:33:05.735Z",
   "datasetVersion": "3.2.0",
   "catalogo": {
     "nome": "Central Rádios Brasil",
     "pais": "Brasil",
     "idioma": "pt-BR",
     "origem": "contatofalapopular-bit/CentralRadiosBrasil-Dados",
-    "geradoEm": "2026-08-01T03:20:51.705Z",
+    "geradoEm": "2026-08-01T23:33:05.735Z",
     "versaoPainel": "3.2.0"
   },
   "totais": {
-    "emissoras": 1,
-    "streams": 1,
-    "estados": 1,
-    "cidades": 1,
+    "emissoras": 2,
+    "streams": 2,
+    "estados": 2,
+    "cidades": 2,
     "categorias": 1,
     "verificadas": 1
   },
   "validacao": {
     "valido": true,
-    "erros": 2,
+    "erros": 0,
     "avisos": 0
   },
   "radios": [
+    {
+      "id": "radio-capital-do-tomate-1785545220352",
+      "slug": "radio-capital-do-tomate",
+      "nome": "RÁDIO CAPITAL DO TOMATE",
+      "nomeFantasia": "RÁDIO CAPITAL DO TOMATE",
+      "razaoSocial": "",
+      "slogan": "",
+      "descricao": "Rádio Capital do Tomate, transmitindo de Reserva, Brasil, presta homenagem à rica herança agrícola da região. Esta estação de rádio na internet oferece uma seleção diversificada de música em português, apresentando gêneros como Sertaneja, Gaúcha, Forró e outros estilos ecléticos. Sua programação é projetada para ressoar com as tradições locais, ao mesmo tempo em que atrai um público amplo. Ao fornecer um fluxo contínuo de música, a Web Rádio Capital do Tomate oferece aos ouvintes uma experiência auditiva envolvente e culturalmente rica, misturando tradição com sons contemporâneos para celebrar",
+      "logo": "https://raw.githubusercontent.com/contatofalapopular-bit/CentralRadiosBrasil-Dados/main/solicitacoes/logos/2026/CRB-20260731-A8E45E4D.jpg",
+      "tipo": "Web",
+      "frequencia": "",
+      "site": "https://webradiocapitaldotomate.suamidia.net/",
+      "localizacao": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "reserva",
+        "cep": "",
+        "endereco": "",
+        "latitude": null,
+        "longitude": null
+      },
+      "classificacao": {
+        "categoriaPrincipal": "Sertanejo",
+        "categorias": [
+          "Sertanejo"
+        ],
+        "idioma": "pt-BR",
+        "tags": []
+      },
+      "contato": {
+        "telefone": "",
+        "whatsapp": "+5542984446445",
+        "email": "radiocapitaldotomate2022@gmail.com"
+      },
+      "redesSociais": {
+        "facebook": "",
+        "instagram": "",
+        "youtube": ""
+      },
+      "statusCadastro": "publicada",
+      "plano": "gratuito",
+      "status": {
+        "ativa": true,
+        "publica": true,
+        "verificada": false,
+        "destaque": false
+      },
+      "streams": [
+        {
+          "id": "stream-1785545220352",
+          "nome": "Principal",
+          "url": "https://stm3.colossocast.com.br:7610/;",
+          "principal": true,
+          "protocolo": "HTTPS",
+          "codec": "não informado",
+          "bitrate": null,
+          "monitoramento": {
+            "status": "nao_testado",
+            "ultimaVerificacao": null,
+            "tempoRespostaMs": null
+          }
+        }
+      ],
+      "streamPrincipal": {
+        "id": "stream-1785545220352",
+        "url": "https://stm3.colossocast.com.br:7610/;",
+        "codec": "não informado",
+        "bitrate": null
+      },
+      "seloOficial": {
+        "status": "nao_solicitado",
+        "codigo": "",
+        "dominio": "",
+        "metodo": "nao_definido",
+        "ultimaVerificacao": null
+      },
+      "observacoes": "Stream pendente de correção. O endereço informado abre apenas a página de status do Shoutcast e não fornece áudio direto em HTTPS compatível com o player da Central Rádios Brasil. Favor solicitar e nos enviar.",
+      "criadoEm": "2026-08-01T00:47:00.347Z",
+      "atualizadoEm": "2026-08-01T23:31:59.996Z"
+    },
     {
       "id": "radio-fala-popular-1785545311379",
       "slug": "radio-fala-popular",
