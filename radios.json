@@ -1,22 +1,22 @@
 {
   "schemaVersion": "3.1.4",
-  "generatedAt": "2026-07-31T03:26:40.406Z",
-  "datasetVersion": "3.1.4",
+  "generatedAt": "2026-08-01T00:59:30.905Z",
+  "datasetVersion": "3.2.0",
   "catalogo": {
     "nome": "Central Rádios Brasil",
     "pais": "Brasil",
     "idioma": "pt-BR",
     "origem": "contatofalapopular-bit/CentralRadiosBrasil-Dados",
-    "geradoEm": "2026-07-31T03:26:40.406Z",
-    "versaoPainel": "3.1.4"
+    "geradoEm": "2026-08-01T00:59:30.905Z",
+    "versaoPainel": "3.2.0"
   },
   "totais": {
-    "emissoras": 1,
-    "streams": 1,
-    "estados": 1,
-    "cidades": 1,
+    "emissoras": 2,
+    "streams": 2,
+    "estados": 2,
+    "cidades": 2,
     "categorias": 1,
-    "verificadas": 1
+    "verificadas": 2
   },
   "validacao": {
     "valido": true,
@@ -25,25 +25,21 @@
   },
   "radios": [
     {
-      "id": "br-go-rio-verde-radio-fala-popular",
-      "slug": "radio-fala-popular",
-      "nome": "Rádio Fala Popular",
-      "nomeFantasia": "Rádio Fala Popular",
-      "razaoSocial": "Portal Fala Popular",
-      "slogan": "A VOZ DO POVO, A FORÇA DA NOTÍCIA!",
-      "descricao": "A voz da nossa gente!",
-      "logo": {
-        "original": "",
-        "quadrada": "",
-        "miniatura": ""
-      },
+      "id": "radio-capital-do-tomate-1785545220352",
+      "slug": "radio-capital-do-tomate",
+      "nome": "RÁDIO CAPITAL DO TOMATE",
+      "nomeFantasia": "RÁDIO CAPITAL DO TOMATE",
+      "razaoSocial": "",
+      "slogan": "",
+      "descricao": "Rádio Capital do Tomate, transmitindo de Reserva, Brasil, presta homenagem à rica herança agrícola da região. Esta estação de rádio na internet oferece uma seleção diversificada de música em português, apresentando gêneros como Sertaneja, Gaúcha, Forró e outros estilos ecléticos. Sua programação é projetada para ressoar com as tradições locais, ao mesmo tempo em que atrai um público amplo. Ao fornecer um fluxo contínuo de música, a Web Rádio Capital do Tomate oferece aos ouvintes uma experiência auditiva envolvente e culturalmente rica, misturando tradição com sons contemporâneos para celebrar",
+      "logo": "https://raw.githubusercontent.com/contatofalapopular-bit/CentralRadiosBrasil-Dados/main/solicitacoes/logos/2026/CRB-20260731-A8E45E4D.jpg",
       "tipo": "Web",
       "frequencia": "",
-      "site": "",
+      "site": "https://webradiocapitaldotomate.suamidia.net/",
       "localizacao": {
         "pais": "Brasil",
-        "uf": "GO",
-        "cidade": "Rio Verde",
+        "uf": "PR",
+        "cidade": "reserva",
         "cep": "",
         "endereco": "",
         "latitude": null,
@@ -55,17 +51,12 @@
           "Sertanejo"
         ],
         "idioma": "pt-BR",
-        "tags": [
-          "rio verde",
-          "goiás",
-          "notícias",
-          "fala popular"
-        ]
+        "tags": []
       },
       "contato": {
         "telefone": "",
-        "whatsapp": "64993117274",
-        "email": ""
+        "whatsapp": "+5542984446445",
+        "email": "radiocapitaldotomate2022@gmail.com"
       },
       "redesSociais": {
         "facebook": "",
@@ -82,12 +73,12 @@
       },
       "streams": [
         {
-          "id": "stream-1785418298156",
-          "nome": "principal",
-          "url": "https://stm19.xcast.com.br:10792/stream",
+          "id": "stream-1785545220352",
+          "nome": "Principal",
+          "url": "https://stm3.colossocast.com.br:7610",
           "principal": true,
           "protocolo": "HTTPS",
-          "codec": "mp3",
+          "codec": "não informado",
           "bitrate": null,
           "monitoramento": {
             "status": "nao_testado",
@@ -97,9 +88,9 @@
         }
       ],
       "streamPrincipal": {
-        "id": "stream-1785418298156",
-        "url": "https://stm19.xcast.com.br:10792/stream",
-        "codec": "mp3",
+        "id": "stream-1785545220352",
+        "url": "https://stm3.colossocast.com.br:7610",
+        "codec": "não informado",
         "bitrate": null
       },
       "seloOficial": {
@@ -109,9 +100,89 @@
         "metodo": "nao_definido",
         "ultimaVerificacao": null
       },
-      "observacoes": "",
-      "criadoEm": "2026-07-26T03:48:16.684Z",
-      "atualizadoEm": "2026-07-30T13:31:54.746Z"
+      "observacoes": "Importada da solicitação CRB-20260731-A8E45E4D.",
+      "criadoEm": "2026-08-01T00:47:00.347Z",
+      "atualizadoEm": "2026-08-01T00:59:26.342Z"
+    },
+    {
+      "id": "radio-fala-popular-1785545311379",
+      "slug": "radio-fala-popular",
+      "nome": "rádio fala popular",
+      "nomeFantasia": "FALA POPULAR",
+      "razaoSocial": "RÁDIO FALA POPULAR",
+      "slogan": "A Voz da Nossa Gente.",
+      "descricao": "Somos uma rádio sertaneja brasileira criada para quem acredita que a música tem o poder de emocionar, aproximar pessoas e transformar momentos simples em lembranças inesquecíveis.",
+      "logo": "https://raw.githubusercontent.com/contatofalapopular-bit/CentralRadiosBrasil-Dados/main/solicitacoes/logos/2026/CRB-20260801-19948E68.png",
+      "tipo": "Web",
+      "frequencia": "",
+      "site": "https://www.falapopular.com.br",
+      "localizacao": {
+        "pais": "Brasil",
+        "uf": "GO",
+        "cidade": "Rio Verde",
+        "cep": "75900000",
+        "endereco": "AV PRESIDENTE VARGAS",
+        "latitude": null,
+        "longitude": null
+      },
+      "classificacao": {
+        "categoriaPrincipal": "Sertanejo",
+        "categorias": [
+          "Sertanejo"
+        ],
+        "idioma": "pt-BR",
+        "tags": []
+      },
+      "contato": {
+        "telefone": "64993117274",
+        "whatsapp": "64993117274",
+        "email": "contatofalapopular@gmail.com"
+      },
+      "redesSociais": {
+        "facebook": "https://www.facebook.com/profile.php?id=61558871402633",
+        "instagram": "https://www.instagram.com/falapopular_br/",
+        "youtube": "https://www.youtube.com/@FALAPOPULAR"
+      },
+      "statusCadastro": "publicada",
+      "plano": "parceira_verificada",
+      "status": {
+        "ativa": true,
+        "publica": true,
+        "verificada": true,
+        "destaque": false
+      },
+      "streams": [
+        {
+          "id": "stream-1785545311379",
+          "nome": "Principal",
+          "url": "https://stm19.xcast.com.br:10792/stream",
+          "principal": true,
+          "protocolo": "HTTPS",
+          "codec": "não informado",
+          "bitrate": null,
+          "monitoramento": {
+            "status": "nao_testado",
+            "ultimaVerificacao": null,
+            "tempoRespostaMs": null
+          }
+        }
+      ],
+      "streamPrincipal": {
+        "id": "stream-1785545311379",
+        "url": "https://stm19.xcast.com.br:10792/stream",
+        "codec": "não informado",
+        "bitrate": null
+      },
+      "seloOficial": {
+        "status": "nao_solicitado",
+        "codigo": "",
+        "dominio": "",
+        "metodo": "manual",
+        "ultimaVerificacao": "2026-07-31T21:49"
+      },
+      "observacoes": "Importada da solicitação CRB-20260801-19948E68.",
+      "criadoEm": "2026-08-01T00:48:31.379Z",
+      "atualizadoEm": "2026-08-01T00:58:41.044Z"
     }
   ]
 }
