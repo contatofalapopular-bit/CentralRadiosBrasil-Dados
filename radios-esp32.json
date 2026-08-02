@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "geradoEm": "2026-08-02T02:07:33.845Z",
+  "geradoEm": "2026-08-02T12:38:29.449Z",
   "total": 6,
   "radios": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "id": "radio-capital-do-tomate-1785545220352",
-      "nome": "RÁDIO CAPITAL DO TOMATE",
+      "nome": "Rádio Capital do Tomate",
       "cidade": "reserva",
       "estado": "PR",
       "categoria": "Sertanejo",
@@ -41,7 +41,7 @@
     },
     {
       "id": "radio-fala-popular-1785545311379",
-      "nome": "rádio fala popular",
+      "nome": "Rádio Fala Popular",
       "cidade": "Rio Verde",
       "estado": "GO",
       "categoria": "Sertanejo",
