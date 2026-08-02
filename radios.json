@@ -1,20 +1,20 @@
 {
   "schemaVersion": "3.1.4",
-  "generatedAt": "2026-08-01T23:49:22.847Z",
-  "datasetVersion": "3.2.0",
+  "generatedAt": "2026-08-02T02:07:33.845Z",
+  "datasetVersion": "3.3.0",
   "catalogo": {
     "nome": "Central Rádios Brasil",
     "pais": "Brasil",
     "idioma": "pt-BR",
     "origem": "contatofalapopular-bit/CentralRadiosBrasil-Dados",
-    "geradoEm": "2026-08-01T23:49:22.847Z",
-    "versaoPainel": "3.2.0"
+    "geradoEm": "2026-08-02T02:07:33.845Z",
+    "versaoPainel": "3.3.0"
   },
   "totais": {
-    "emissoras": 5,
-    "streams": 5,
-    "estados": 5,
-    "cidades": 5,
+    "emissoras": 6,
+    "streams": 6,
+    "estados": 6,
+    "cidades": 6,
     "categorias": 3,
     "verificadas": 1
   },
@@ -24,6 +24,86 @@
     "avisos": 0
   },
   "radios": [
+    {
+      "id": "ide-radio-gospel-1785636284319",
+      "slug": "ide-radio-gospel",
+      "nome": "Ide Radio Gospel",
+      "nomeFantasia": "Ide Radio Gospel",
+      "razaoSocial": "",
+      "slogan": "",
+      "descricao": "IDE Rádio Gospel – A Voz da Comunidade Cristã. Uma web rádio cristã dedicada a anunciar o Evangelho de Jesus Cristo por meio da música, da Palavra, de notícias e de conteúdos que fortalecem a fé. Levando esperança, informação e edificação para vidas no Brasil e no mundo, 24 horas por dia.",
+      "logo": "https://raw.githubusercontent.com/contatofalapopular-bit/CentralRadiosBrasil-Dados/main/solicitacoes/logos/2026/CRB-20260802-8B293033.jpg",
+      "tipo": "Web",
+      "frequencia": "",
+      "site": "https://sidecom.com.br/",
+      "localizacao": {
+        "pais": "Brasil",
+        "uf": "RS",
+        "cidade": "Bento Gonçalves",
+        "cep": "",
+        "endereco": "",
+        "latitude": null,
+        "longitude": null
+      },
+      "classificacao": {
+        "categoriaPrincipal": "Gospel",
+        "categorias": [
+          "Gospel"
+        ],
+        "idioma": "pt-BR",
+        "tags": []
+      },
+      "contato": {
+        "telefone": "",
+        "whatsapp": "54993111039",
+        "email": "ideradiogospel@gmail.com"
+      },
+      "redesSociais": {
+        "facebook": "",
+        "instagram": "",
+        "youtube": ""
+      },
+      "statusCadastro": "publicada",
+      "plano": "gratuito",
+      "status": {
+        "ativa": true,
+        "publica": true,
+        "verificada": false,
+        "destaque": false
+      },
+      "streams": [
+        {
+          "id": "stream-1785636284319",
+          "nome": "Principal",
+          "url": "https://hts07.brascast.com:7804/live",
+          "principal": true,
+          "protocolo": "HTTPS",
+          "codec": "não informado",
+          "bitrate": null,
+          "monitoramento": {
+            "status": "nao_testado",
+            "ultimaVerificacao": null,
+            "tempoRespostaMs": null
+          }
+        }
+      ],
+      "streamPrincipal": {
+        "id": "stream-1785636284319",
+        "url": "https://hts07.brascast.com:7804/live",
+        "codec": "não informado",
+        "bitrate": null
+      },
+      "seloOficial": {
+        "status": "nao_solicitado",
+        "codigo": "",
+        "dominio": "",
+        "metodo": "nao_definido",
+        "ultimaVerificacao": null
+      },
+      "observacoes": "Importada da solicitação CRB-20260802-8B293033. Stream validado automaticamente: AAC em HTTPS.",
+      "criadoEm": "2026-08-02T02:04:44.318Z",
+      "atualizadoEm": "2026-08-02T02:05:34.402Z"
+    },
     {
       "id": "radio-capital-do-tomate-1785545220352",
       "slug": "radio-capital-do-tomate",
