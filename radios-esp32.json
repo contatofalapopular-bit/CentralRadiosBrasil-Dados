@@ -1,8 +1,20 @@
 {
   "schemaVersion": "1.0.0",
-  "geradoEm": "2026-08-01T23:49:22.847Z",
-  "total": 5,
+  "geradoEm": "2026-08-02T02:07:33.845Z",
+  "total": 6,
   "radios": [
+    {
+      "id": "ide-radio-gospel-1785636284319",
+      "nome": "Ide Radio Gospel",
+      "cidade": "Bento Gonçalves",
+      "estado": "RS",
+      "categoria": "Gospel",
+      "host": "hts07.brascast.com",
+      "porta": 7804,
+      "caminho": "/live",
+      "ssl": true,
+      "ativa": true
+    },
     {
       "id": "radio-capital-do-tomate-1785545220352",
       "nome": "RÁDIO CAPITAL DO TOMATE",
