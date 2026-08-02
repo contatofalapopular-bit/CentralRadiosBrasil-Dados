@@ -1,14 +1,14 @@
 {
   "schemaVersion": "3.1.4",
-  "generatedAt": "2026-08-02T02:07:33.845Z",
-  "datasetVersion": "3.3.0",
+  "generatedAt": "2026-08-02T12:38:29.449Z",
+  "datasetVersion": "3.4.0",
   "catalogo": {
     "nome": "Central Rádios Brasil",
     "pais": "Brasil",
     "idioma": "pt-BR",
     "origem": "contatofalapopular-bit/CentralRadiosBrasil-Dados",
-    "geradoEm": "2026-08-02T02:07:33.845Z",
-    "versaoPainel": "3.3.0"
+    "geradoEm": "2026-08-02T12:38:29.449Z",
+    "versaoPainel": "3.4.0"
   },
   "totais": {
     "emissoras": 6,
@@ -107,7 +107,7 @@
     {
       "id": "radio-capital-do-tomate-1785545220352",
       "slug": "radio-capital-do-tomate",
-      "nome": "RÁDIO CAPITAL DO TOMATE",
+      "nome": "Rádio Capital do Tomate",
       "nomeFantasia": "RÁDIO CAPITAL DO TOMATE",
       "razaoSocial": "",
       "slogan": "",
@@ -182,7 +182,7 @@
       },
       "observacoes": "Stream pendente de correção. O endereço informado abre apenas a página de status do Shoutcast e não fornece áudio direto em HTTPS compatível com o player da Central Rádios Brasil. Favor solicitar e nos enviar.",
       "criadoEm": "2026-08-01T00:47:00.347Z",
-      "atualizadoEm": "2026-08-01T23:39:57.023Z"
+      "atualizadoEm": "2026-08-02T03:05:54.206Z"
     },
     {
       "id": "radio-esperanca-1785628051841",
@@ -267,12 +267,12 @@
     {
       "id": "radio-fala-popular-1785545311379",
       "slug": "radio-fala-popular",
-      "nome": "rádio fala popular",
-      "nomeFantasia": "FALA POPULAR",
+      "nome": "Rádio Fala Popular",
+      "nomeFantasia": "Rádio Fala Popular",
       "razaoSocial": "RÁDIO FALA POPULAR",
       "slogan": "A Voz da Nossa Gente.",
       "descricao": "Somos uma rádio sertaneja brasileira criada para quem acredita que a música tem o poder de emocionar, aproximar pessoas e transformar momentos simples em lembranças inesquecíveis.",
-      "logo": "https://raw.githubusercontent.com/contatofalapopular-bit/CentralRadiosBrasil-Dados/main/solicitacoes/logos/2026/CRB-20260801-19948E68.png",
+      "logo": "https://raw.githubusercontent.com/contatofalapopular-bit/CentralRadiosBrasil-Dados/main/solicitacoes/alteracoes/2026/ALT-20260802-055C5515.png",
       "tipo": "Web",
       "frequencia": "",
       "site": "https://www.falapopular.com.br",
@@ -340,9 +340,9 @@
         "metodo": "manual",
         "ultimaVerificacao": "2026-07-31T21:49"
       },
-      "observacoes": "Importada da solicitação CRB-20260801-19948E68.",
+      "observacoes": "Importada da solicitação CRB-20260801-19948E68. Alteração ALT-20260802-055C5515 aprovada e aplicada.",
       "criadoEm": "2026-08-01T00:48:31.379Z",
-      "atualizadoEm": "2026-08-01T00:58:41.044Z"
+      "atualizadoEm": "2026-08-02T12:38:16.084Z"
     },
     {
       "id": "radio-vida-natal-1785627937391",
