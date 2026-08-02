@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "geradoEm": "2026-08-02T12:38:29.449Z",
-  "total": 6,
+  "geradoEm": "2026-08-02T17:22:24.782Z",
+  "total": 8,
   "radios": [
     {
       "id": "ide-radio-gospel-1785636284319",
@@ -24,6 +24,18 @@
       "host": "stm3.colossocast.com.br",
       "porta": 7610,
       "caminho": "/;",
+      "ssl": true,
+      "ativa": true
+    },
+    {
+      "id": "radio-casteloweb-1785691204268",
+      "nome": "radio casteloweb",
+      "cidade": "Presidente Castello Branco",
+      "estado": "SC",
+      "categoria": "Eclética",
+      "host": "hts01.brascast.com",
+      "porta": 11648,
+      "caminho": "/live",
       "ssl": true,
       "ativa": true
     },
@@ -72,6 +84,18 @@
       "host": "server29.srvsh.com.br",
       "porta": 6718,
       "caminho": "/stream",
+      "ssl": true,
+      "ativa": true
+    },
+    {
+      "id": "web-radio-cidade-1785691312417",
+      "nome": "Web Rádio Cidade",
+      "cidade": "Presidente Venceslau",
+      "estado": "SP",
+      "categoria": "Eclética",
+      "host": "live8.livemus.com.br",
+      "porta": 27488,
+      "caminho": "/128kbps",
       "ssl": true,
       "ativa": true
     }
