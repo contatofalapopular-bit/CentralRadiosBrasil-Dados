@@ -1,14 +1,14 @@
 {
   "schemaVersion": "3.1.4",
-  "generatedAt": "2026-08-03T00:32:05.456Z",
-  "datasetVersion": "3.4.0",
+  "generatedAt": "2026-08-03T11:08:27.961Z",
+  "datasetVersion": "3.6.1",
   "catalogo": {
     "nome": "Central Rádios Brasil",
     "pais": "Brasil",
     "idioma": "pt-BR",
     "origem": "contatofalapopular-bit/CentralRadiosBrasil-Dados",
-    "geradoEm": "2026-08-03T00:32:05.456Z",
-    "versaoPainel": "3.4.0"
+    "geradoEm": "2026-08-03T11:08:27.961Z",
+    "versaoPainel": "3.6.1"
   },
   "totais": {
     "emissoras": 10,
@@ -46,9 +46,9 @@
         "longitude": null
       },
       "classificacao": {
-        "categoriaPrincipal": "Gospel",
+        "categoriaPrincipal": "Eclética",
         "categorias": [
-          "Gospel"
+          "Eclética"
         ],
         "idioma": "pt-BR",
         "tags": []
@@ -102,7 +102,7 @@
       },
       "observacoes": "Importada da solicitação CRB-20260802-29D367CE. Stream validado automaticamente: MP3 em HTTPS.",
       "criadoEm": "2026-08-03T00:29:59.351Z",
-      "atualizadoEm": "2026-08-03T00:30:35.835Z"
+      "atualizadoEm": "2026-08-03T10:36:02.024Z"
     },
     {
       "id": "ide-radio-gospel-1785636284319",
@@ -267,7 +267,7 @@
     {
       "id": "radio-casteloweb-1785691204268",
       "slug": "radio-casteloweb",
-      "nome": "radio casteloweb",
+      "nome": "Rádio Casteloweb",
       "nomeFantasia": "radio casteloweb",
       "razaoSocial": "",
       "slogan": "",
@@ -342,7 +342,7 @@
       },
       "observacoes": "Importada da solicitação CRB-20260802-588B2040. Stream validado automaticamente: AAC em HTTPS.",
       "criadoEm": "2026-08-02T17:20:04.267Z",
-      "atualizadoEm": "2026-08-02T17:21:11.059Z"
+      "atualizadoEm": "2026-08-03T00:33:07.890Z"
     },
     {
       "id": "radio-esperanca-1785628051841",
