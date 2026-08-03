@@ -1,8 +1,20 @@
 {
   "schemaVersion": "1.0.0",
-  "geradoEm": "2026-08-02T17:22:24.782Z",
-  "total": 8,
+  "geradoEm": "2026-08-03T00:32:05.456Z",
+  "total": 10,
   "radios": [
+    {
+      "id": "gruda-fm-1785716999351",
+      "nome": "Gruda Fm",
+      "cidade": "Mongaguá",
+      "estado": "SP",
+      "categoria": "Gospel",
+      "host": "servidor40-3.brlogic.com",
+      "porta": 7112,
+      "caminho": "/live",
+      "ssl": true,
+      "ativa": true
+    },
     {
       "id": "ide-radio-gospel-1785636284319",
       "nome": "Ide Radio Gospel",
@@ -96,6 +108,18 @@
       "host": "live8.livemus.com.br",
       "porta": 27488,
       "caminho": "/128kbps",
+      "ssl": true,
+      "ativa": true
+    },
+    {
+      "id": "web-radio-conectados-gospel-fm-1785717085503",
+      "nome": "WEB RÁDIO CONECTADOS GOSPEL FM",
+      "cidade": "Almirante Tamandaré",
+      "estado": "PR",
+      "categoria": "Gospel",
+      "host": "stm9.voxhd.com.br",
+      "porta": 13464,
+      "caminho": "/stream",
       "ssl": true,
       "ativa": true
     }
