@@ -1,20 +1,20 @@
 {
   "schemaVersion": "3.1.4",
-  "generatedAt": "2026-08-03T11:10:19.921Z",
-  "datasetVersion": "3.6.1",
+  "generatedAt": "2026-08-03T16:53:32.299Z",
+  "datasetVersion": "3.8.0",
   "catalogo": {
     "nome": "Central Rádios Brasil",
     "pais": "Brasil",
     "idioma": "pt-BR",
     "origem": "contatofalapopular-bit/CentralRadiosBrasil-Dados",
-    "geradoEm": "2026-08-03T11:10:19.921Z",
-    "versaoPainel": "3.6.1"
+    "geradoEm": "2026-08-03T16:53:32.299Z",
+    "versaoPainel": "3.8.0"
   },
   "totais": {
-    "emissoras": 10,
-    "streams": 10,
-    "estados": 8,
-    "cidades": 10,
+    "emissoras": 11,
+    "streams": 11,
+    "estados": 9,
+    "cidades": 11,
     "categorias": 3,
     "verificadas": 1
   },
@@ -583,6 +583,86 @@
       "observacoes": "Importada da solicitação CRB-20260801-C0D55F72. Stream validado automaticamente: HE-AAC/AAC+ em HTTPS.",
       "criadoEm": "2026-08-01T23:45:37.390Z",
       "atualizadoEm": "2026-08-01T23:48:57.401Z"
+    },
+    {
+      "id": "radio-wording-76-3-fm-1785775969135",
+      "slug": "radio-wording-76-3-fm",
+      "nome": "Rádio Wording 76,3 FM",
+      "nomeFantasia": "Rádio Wording 76,3 FM",
+      "razaoSocial": "",
+      "slogan": "",
+      "descricao": "Rádio Wording 76,3 FM é uma emissora dinâmica e diversificada que leva entretenimento, música e conteúdo de qualidade para todos os públicos. Com uma programação eclética, a rádio se destaca por tocar de tudo: desde aberturas de animes e J-Pop até o melhor do sertanejo e outros estilos musicais. Entre os destaques da grade está a transmissão especial do programa de TV Sessão Oriental, trazendo o universo dos animes para dentro do rádio, com trilhas marcantes e conteúdos temáticos exclusivos.",
+      "logo": "https://raw.githubusercontent.com/contatofalapopular-bit/CentralRadiosBrasil-Dados/main/solicitacoes/logos/2026/CRB-20260803-61278035.png",
+      "tipo": "Web",
+      "frequencia": "",
+      "site": "https://www.wording.com.br/",
+      "localizacao": {
+        "pais": "Brasil",
+        "uf": "TO",
+        "cidade": "Palmeiras do Tocantins",
+        "cep": "",
+        "endereco": "",
+        "latitude": null,
+        "longitude": null
+      },
+      "classificacao": {
+        "categoriaPrincipal": "Eclética",
+        "categorias": [
+          "Eclética"
+        ],
+        "idioma": "pt-BR",
+        "tags": []
+      },
+      "contato": {
+        "telefone": "",
+        "whatsapp": "(63) 99127-1977",
+        "email": "radiowordingfm@gmail.com"
+      },
+      "redesSociais": {
+        "facebook": "",
+        "instagram": "",
+        "youtube": ""
+      },
+      "statusCadastro": "publicada",
+      "plano": "gratuito",
+      "status": {
+        "ativa": true,
+        "publica": true,
+        "verificada": false,
+        "destaque": false
+      },
+      "streams": [
+        {
+          "id": "stream-1785775969135",
+          "nome": "Principal",
+          "url": "https://radio02.zas.media/proxy/wordday/stream",
+          "principal": true,
+          "protocolo": "HTTPS",
+          "codec": "não informado",
+          "bitrate": null,
+          "monitoramento": {
+            "status": "nao_testado",
+            "ultimaVerificacao": null,
+            "tempoRespostaMs": null
+          }
+        }
+      ],
+      "streamPrincipal": {
+        "id": "stream-1785775969135",
+        "url": "https://radio02.zas.media/proxy/wordday/stream",
+        "codec": "não informado",
+        "bitrate": null
+      },
+      "seloOficial": {
+        "status": "nao_solicitado",
+        "codigo": "",
+        "dominio": "",
+        "metodo": "nao_definido",
+        "ultimaVerificacao": null
+      },
+      "observacoes": "Importada da solicitação CRB-20260803-61278035. Stream validado automaticamente: HE-AAC/AAC+ em HTTPS.",
+      "criadoEm": "2026-08-03T16:52:49.135Z",
+      "atualizadoEm": "2026-08-03T16:53:20.937Z"
     },
     {
       "id": "web-radio-caxias-1785627985907",
