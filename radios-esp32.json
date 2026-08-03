@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "geradoEm": "2026-08-03T11:10:19.921Z",
-  "total": 10,
+  "geradoEm": "2026-08-03T16:53:32.299Z",
+  "total": 11,
   "radios": [
     {
       "id": "gruda-fm-1785716999351",
@@ -84,6 +84,18 @@
       "host": "stm18.voxhd.com.br",
       "porta": 8678,
       "caminho": "/stream",
+      "ssl": true,
+      "ativa": true
+    },
+    {
+      "id": "radio-wording-76-3-fm-1785775969135",
+      "nome": "Rádio Wording 76,3 FM",
+      "cidade": "Palmeiras do Tocantins",
+      "estado": "TO",
+      "categoria": "Eclética",
+      "host": "radio02.zas.media",
+      "porta": 443,
+      "caminho": "/proxy/wordday/stream",
       "ssl": true,
       "ativa": true
     },
