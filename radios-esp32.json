@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "geradoEm": "2026-08-04T11:16:38.130Z",
-  "total": 15,
+  "geradoEm": "2026-08-04T13:02:46.596Z",
+  "total": 16,
   "radios": [
     {
       "id": "derik-ramos-radio-show-1785841848411",
@@ -72,6 +72,18 @@
       "host": "hts01.brascast.com",
       "porta": 11648,
       "caminho": "/live",
+      "ssl": true,
+      "ativa": true
+    },
+    {
+      "id": "radio-e-web-tv-mais24-horas-no-ar-co-voce-e-ora-voce-trazendo-informacao-em-tempo-real-1785848265660",
+      "nome": "Rádio e Web TV Mais",
+      "cidade": "Contagem",
+      "estado": "MG",
+      "categoria": "Eclética",
+      "host": "stm20.voxhd.com.br",
+      "porta": 11986,
+      "caminho": "/stream",
       "ssl": true,
       "ativa": true
     },
