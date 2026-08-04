@@ -1,8 +1,20 @@
 {
   "schemaVersion": "1.0.0",
-  "geradoEm": "2026-08-03T16:53:32.299Z",
-  "total": 11,
+  "geradoEm": "2026-08-04T11:16:38.130Z",
+  "total": 15,
   "radios": [
+    {
+      "id": "derik-ramos-radio-show-1785841848411",
+      "nome": "Dérik Ramos Rádio Show",
+      "cidade": "Anchieta",
+      "estado": "ES",
+      "categoria": "Eclética",
+      "host": "tgaurl.com.br",
+      "porta": 443,
+      "caminho": "/derik",
+      "ssl": true,
+      "ativa": true
+    },
     {
       "id": "gruda-fm-1785716999351",
       "nome": "Gruda Fm",
@@ -24,6 +36,18 @@
       "host": "hts07.brascast.com",
       "porta": 7804,
       "caminho": "/live",
+      "ssl": true,
+      "ativa": true
+    },
+    {
+      "id": "pop-rock-brasil-1785842110236",
+      "nome": "Pop Rock Brasil",
+      "cidade": "Rondonópolis",
+      "estado": "MT",
+      "categoria": "Rock",
+      "host": "stm2.sradios.com.br",
+      "porta": 7048,
+      "caminho": "/stream",
       "ssl": true,
       "ativa": true
     },
@@ -71,6 +95,30 @@
       "categoria": "Sertanejo",
       "host": "stm19.xcast.com.br",
       "porta": 10792,
+      "caminho": "/stream",
+      "ssl": true,
+      "ativa": true
+    },
+    {
+      "id": "radio-gospel-novo-amanhecer-1785842047917",
+      "nome": "Radio Gospel Novo Amanhecer",
+      "cidade": "Criciúma",
+      "estado": "SC",
+      "categoria": "Gospel",
+      "host": "stm.colossocast.com.br",
+      "porta": 7180,
+      "caminho": "/stream",
+      "ssl": true,
+      "ativa": true
+    },
+    {
+      "id": "radio-ol-1785841965699",
+      "nome": "Rádio OL",
+      "cidade": "Raposa",
+      "estado": "MA",
+      "categoria": "Eclética",
+      "host": "stm1.colossocast.com.br",
+      "porta": 7106,
       "caminho": "/stream",
       "ssl": true,
       "ativa": true
