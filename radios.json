@@ -1,20 +1,20 @@
 {
   "schemaVersion": "3.1.4",
-  "generatedAt": "2026-08-04T11:16:38.130Z",
-  "datasetVersion": "3.10.0",
+  "generatedAt": "2026-08-04T13:02:46.596Z",
+  "datasetVersion": "3.10.1",
   "catalogo": {
     "nome": "Central Rádios Brasil",
     "pais": "Brasil",
     "idioma": "pt-BR",
     "origem": "contatofalapopular-bit/CentralRadiosBrasil-Dados",
-    "geradoEm": "2026-08-04T11:16:38.130Z",
-    "versaoPainel": "3.10.0"
+    "geradoEm": "2026-08-04T13:02:46.596Z",
+    "versaoPainel": "3.10.1"
   },
   "totais": {
-    "emissoras": 15,
-    "streams": 15,
-    "estados": 11,
-    "cidades": 15,
+    "emissoras": 16,
+    "streams": 16,
+    "estados": 12,
+    "cidades": 16,
     "categorias": 4,
     "verificadas": 1
   },
@@ -503,6 +503,86 @@
       "observacoes": "Importada da solicitação CRB-20260802-588B2040. Stream validado automaticamente: AAC em HTTPS.",
       "criadoEm": "2026-08-02T17:20:04.267Z",
       "atualizadoEm": "2026-08-03T00:33:07.890Z"
+    },
+    {
+      "id": "radio-e-web-tv-mais24-horas-no-ar-co-voce-e-ora-voce-trazendo-informacao-em-tempo-real-1785848265660",
+      "slug": "radio-e-web-tv-mais24-horas-no-ar-co-voce-e-ora-voce-trazendo-informacao-em-tempo-real",
+      "nome": "Rádio e Web TV Mais",
+      "nomeFantasia": "Rádio e Web TV Mais",
+      "razaoSocial": "",
+      "slogan": "24 horas no ar com Você, e para você, trazendo informação em tempo real.",
+      "descricao": "",
+      "logo": "https://raw.githubusercontent.com/contatofalapopular-bit/CentralRadiosBrasil-Dados/main/solicitacoes/logos/2026/CRB-20260731-EA174FA0.jpg",
+      "tipo": "Web",
+      "frequencia": "",
+      "site": "https://www.maisfm.top/",
+      "localizacao": {
+        "pais": "Brasil",
+        "uf": "MG",
+        "cidade": "Contagem",
+        "cep": "",
+        "endereco": "",
+        "latitude": null,
+        "longitude": null
+      },
+      "classificacao": {
+        "categoriaPrincipal": "Eclética",
+        "categorias": [
+          "Eclética"
+        ],
+        "idioma": "pt-BR",
+        "tags": []
+      },
+      "contato": {
+        "telefone": "",
+        "whatsapp": "31920090621",
+        "email": "maisfmfm92507864@gmail.com"
+      },
+      "redesSociais": {
+        "facebook": "",
+        "instagram": "",
+        "youtube": ""
+      },
+      "statusCadastro": "publicada",
+      "plano": "gratuito",
+      "status": {
+        "ativa": true,
+        "publica": true,
+        "verificada": false,
+        "destaque": false
+      },
+      "streams": [
+        {
+          "id": "stream-1785848265660",
+          "nome": "Principal",
+          "url": "https://stm20.voxhd.com.br:11986/stream",
+          "principal": true,
+          "protocolo": "HTTPS",
+          "codec": "não informado",
+          "bitrate": null,
+          "monitoramento": {
+            "status": "nao_testado",
+            "ultimaVerificacao": null,
+            "tempoRespostaMs": null
+          }
+        }
+      ],
+      "streamPrincipal": {
+        "id": "stream-1785848265660",
+        "url": "https://stm20.voxhd.com.br:11986/stream",
+        "codec": "não informado",
+        "bitrate": null
+      },
+      "seloOficial": {
+        "status": "nao_solicitado",
+        "codigo": "",
+        "dominio": "",
+        "metodo": "nao_definido",
+        "ultimaVerificacao": "2026-08-04T10:00"
+      },
+      "observacoes": "Importada da solicitação CRB-20260731-EA174FA0. Logomarca enviada pela emissora. Solicitação aguardando análise.",
+      "criadoEm": "2026-08-04T12:57:45.658Z",
+      "atualizadoEm": "2026-08-04T13:02:38.574Z"
     },
     {
       "id": "radio-esperanca-1785628051841",
