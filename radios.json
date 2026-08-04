@@ -1,21 +1,21 @@
 {
   "schemaVersion": "3.1.4",
-  "generatedAt": "2026-08-03T16:53:32.299Z",
-  "datasetVersion": "3.8.0",
+  "generatedAt": "2026-08-04T11:16:38.130Z",
+  "datasetVersion": "3.10.0",
   "catalogo": {
     "nome": "Central Rádios Brasil",
     "pais": "Brasil",
     "idioma": "pt-BR",
     "origem": "contatofalapopular-bit/CentralRadiosBrasil-Dados",
-    "geradoEm": "2026-08-03T16:53:32.299Z",
-    "versaoPainel": "3.8.0"
+    "geradoEm": "2026-08-04T11:16:38.130Z",
+    "versaoPainel": "3.10.0"
   },
   "totais": {
-    "emissoras": 11,
-    "streams": 11,
-    "estados": 9,
-    "cidades": 11,
-    "categorias": 3,
+    "emissoras": 15,
+    "streams": 15,
+    "estados": 11,
+    "cidades": 15,
+    "categorias": 4,
     "verificadas": 1
   },
   "validacao": {
@@ -24,6 +24,86 @@
     "avisos": 0
   },
   "radios": [
+    {
+      "id": "derik-ramos-radio-show-1785841848411",
+      "slug": "derik-ramos-radio-show",
+      "nome": "Dérik Ramos Rádio Show",
+      "nomeFantasia": "Dérik Ramos Rádio Show",
+      "razaoSocial": "",
+      "slogan": "",
+      "descricao": "Alegria e otimismo em uma programação especial para você ouvir onde você estiver. Ouça no computador, no celular, na multimídia do carro, na Alexa... essa rádio é show.",
+      "logo": "https://raw.githubusercontent.com/contatofalapopular-bit/CentralRadiosBrasil-Dados/main/solicitacoes/logos/2026/CRB-20260804-262D50C8.png",
+      "tipo": "Web",
+      "frequencia": "",
+      "site": "https://www.derikramos.com.br/",
+      "localizacao": {
+        "pais": "Brasil",
+        "uf": "ES",
+        "cidade": "Anchieta",
+        "cep": "",
+        "endereco": "",
+        "latitude": null,
+        "longitude": null
+      },
+      "classificacao": {
+        "categoriaPrincipal": "Eclética",
+        "categorias": [
+          "Eclética"
+        ],
+        "idioma": "pt-BR",
+        "tags": []
+      },
+      "contato": {
+        "telefone": "",
+        "whatsapp": "(28) 99999-0990",
+        "email": "derikramos@hotmail.com"
+      },
+      "redesSociais": {
+        "facebook": "",
+        "instagram": "",
+        "youtube": ""
+      },
+      "statusCadastro": "publicada",
+      "plano": "gratuito",
+      "status": {
+        "ativa": true,
+        "publica": true,
+        "verificada": false,
+        "destaque": false
+      },
+      "streams": [
+        {
+          "id": "stream-1785841848411",
+          "nome": "Principal",
+          "url": "https://tgaurl.com.br/derik",
+          "principal": true,
+          "protocolo": "HTTPS",
+          "codec": "não informado",
+          "bitrate": null,
+          "monitoramento": {
+            "status": "nao_testado",
+            "ultimaVerificacao": null,
+            "tempoRespostaMs": null
+          }
+        }
+      ],
+      "streamPrincipal": {
+        "id": "stream-1785841848411",
+        "url": "https://tgaurl.com.br/derik",
+        "codec": "não informado",
+        "bitrate": null
+      },
+      "seloOficial": {
+        "status": "nao_solicitado",
+        "codigo": "",
+        "dominio": "",
+        "metodo": "nao_definido",
+        "ultimaVerificacao": "2026-08-04T08:11"
+      },
+      "observacoes": "Importada da solicitação CRB-20260804-262D50C8. Stream validado automaticamente: MP3 em HTTPS.",
+      "criadoEm": "2026-08-04T11:10:48.410Z",
+      "atualizadoEm": "2026-08-04T11:11:46.022Z"
+    },
     {
       "id": "gruda-fm-1785716999351",
       "slug": "gruda-fm",
@@ -183,6 +263,86 @@
       "observacoes": "Importada da solicitação CRB-20260802-8B293033. Stream validado automaticamente: AAC em HTTPS.",
       "criadoEm": "2026-08-02T02:04:44.318Z",
       "atualizadoEm": "2026-08-02T02:05:34.402Z"
+    },
+    {
+      "id": "pop-rock-brasil-1785842110236",
+      "slug": "pop-rock-brasil",
+      "nome": "Pop Rock Brasil",
+      "nomeFantasia": "pop rock brasil",
+      "razaoSocial": "",
+      "slogan": "",
+      "descricao": "A Rádio Pop Rock Brasil, de Rondonópolis, é uma web rádio dedicada aos amantes do rock nacional, levando ao ar uma programação 24 horas por dia com os maiores sucessos que marcaram gerações e as novas bandas que mantêm viva a essência do gênero. A emissora reúne clássicos e novidades do rock brasil",
+      "logo": "https://raw.githubusercontent.com/contatofalapopular-bit/CentralRadiosBrasil-Dados/main/solicitacoes/logos/2026/CRB-20260803-AD37B1EF.png",
+      "tipo": "Web",
+      "frequencia": "",
+      "site": "https://poprockbrasil.mradios.com.br/",
+      "localizacao": {
+        "pais": "Brasil",
+        "uf": "MT",
+        "cidade": "Rondonópolis",
+        "cep": "",
+        "endereco": "",
+        "latitude": null,
+        "longitude": null
+      },
+      "classificacao": {
+        "categoriaPrincipal": "Rock",
+        "categorias": [
+          "Rock"
+        ],
+        "idioma": "pt-BR",
+        "tags": []
+      },
+      "contato": {
+        "telefone": "",
+        "whatsapp": "(66) 99931-5234",
+        "email": "leonelpaivaroomt@gmail.com"
+      },
+      "redesSociais": {
+        "facebook": "",
+        "instagram": "",
+        "youtube": ""
+      },
+      "statusCadastro": "publicada",
+      "plano": "gratuito",
+      "status": {
+        "ativa": true,
+        "publica": true,
+        "verificada": false,
+        "destaque": false
+      },
+      "streams": [
+        {
+          "id": "stream-1785842110236",
+          "nome": "Principal",
+          "url": "https://stm2.sradios.com.br:7048/stream",
+          "principal": true,
+          "protocolo": "HTTPS",
+          "codec": "não informado",
+          "bitrate": null,
+          "monitoramento": {
+            "status": "nao_testado",
+            "ultimaVerificacao": null,
+            "tempoRespostaMs": null
+          }
+        }
+      ],
+      "streamPrincipal": {
+        "id": "stream-1785842110236",
+        "url": "https://stm2.sradios.com.br:7048/stream",
+        "codec": "não informado",
+        "bitrate": null
+      },
+      "seloOficial": {
+        "status": "nao_solicitado",
+        "codigo": "",
+        "dominio": "",
+        "metodo": "nao_definido",
+        "ultimaVerificacao": null
+      },
+      "observacoes": "Importada da solicitação CRB-20260803-AD37B1EF. Stream validado automaticamente: MP3 em HTTPS.",
+      "criadoEm": "2026-08-04T11:15:10.236Z",
+      "atualizadoEm": "2026-08-04T11:15:49.060Z"
     },
     {
       "id": "radio-capital-do-tomate-1785545220352",
@@ -503,6 +663,166 @@
       "observacoes": "Importada da solicitação CRB-20260801-19948E68. Alteração ALT-20260802-055C5515 aprovada e aplicada.",
       "criadoEm": "2026-08-01T00:48:31.379Z",
       "atualizadoEm": "2026-08-02T12:38:16.084Z"
+    },
+    {
+      "id": "radio-gospel-novo-amanhecer-1785842047917",
+      "slug": "radio-gospel-novo-amanhecer",
+      "nome": "Radio Gospel Novo Amanhecer",
+      "nomeFantasia": "Radio Gospel Novo Amanhecer",
+      "razaoSocial": "",
+      "slogan": "",
+      "descricao": "Visão e Missão: A RÁDIO NOVO AMANHECER TEM SEMPRE UMA PROGRAMAÇÃO AO VIVO, ONDE O OUVINTE PODE PARTICIPAR ATRAVÉS DO WHATSAPP PEDINDO SEU LOUVOR OU ORAÇÃO E PODE INTERAGIR COM OS NOSSOS LOCUTORES. A RÁDIO NOVO AMANHECER É DA CIDADE DE CRICIÚMA/SC E SÃO GONÇALO DO AMARANTE/RN . NO AR 24 HORAS TE LEVANDO O MELHOR DO GOSPEL NACIONAL E INTERNACIONAL. OBRIGADO A VOCÊ AMIGO OUVINTE POR SUA AUDIÊNCIA E CONTINUE SEMPRE COM A GENTE. GRAÇA E PAZ.",
+      "logo": "https://raw.githubusercontent.com/contatofalapopular-bit/CentralRadiosBrasil-Dados/main/solicitacoes/logos/2026/CRB-20260803-B0333082.png",
+      "tipo": "Web",
+      "frequencia": "",
+      "site": "https://radiogospelnovoamanhecer.com.br",
+      "localizacao": {
+        "pais": "Brasil",
+        "uf": "SC",
+        "cidade": "Criciúma",
+        "cep": "",
+        "endereco": "",
+        "latitude": null,
+        "longitude": null
+      },
+      "classificacao": {
+        "categoriaPrincipal": "Gospel",
+        "categorias": [
+          "Gospel"
+        ],
+        "idioma": "pt-BR",
+        "tags": []
+      },
+      "contato": {
+        "telefone": "",
+        "whatsapp": "(84) 98646-1105",
+        "email": "novoamanhecer.br@gmail.com"
+      },
+      "redesSociais": {
+        "facebook": "",
+        "instagram": "",
+        "youtube": ""
+      },
+      "statusCadastro": "publicada",
+      "plano": "gratuito",
+      "status": {
+        "ativa": true,
+        "publica": true,
+        "verificada": false,
+        "destaque": false
+      },
+      "streams": [
+        {
+          "id": "stream-1785842047917",
+          "nome": "Principal",
+          "url": "https://stm.colossocast.com.br:7180/stream",
+          "principal": true,
+          "protocolo": "HTTPS",
+          "codec": "não informado",
+          "bitrate": null,
+          "monitoramento": {
+            "status": "nao_testado",
+            "ultimaVerificacao": null,
+            "tempoRespostaMs": null
+          }
+        }
+      ],
+      "streamPrincipal": {
+        "id": "stream-1785842047917",
+        "url": "https://stm.colossocast.com.br:7180/stream",
+        "codec": "não informado",
+        "bitrate": null
+      },
+      "seloOficial": {
+        "status": "nao_solicitado",
+        "codigo": "",
+        "dominio": "",
+        "metodo": "nao_definido",
+        "ultimaVerificacao": null
+      },
+      "observacoes": "Importada da solicitação CRB-20260803-B0333082. Stream validado automaticamente: HE-AAC/AAC+ em HTTPS.",
+      "criadoEm": "2026-08-04T11:14:07.916Z",
+      "atualizadoEm": "2026-08-04T11:14:35.149Z"
+    },
+    {
+      "id": "radio-ol-1785841965699",
+      "slug": "radio-ol",
+      "nome": "Rádio OL",
+      "nomeFantasia": "RÁDIO OL",
+      "razaoSocial": "",
+      "slogan": "",
+      "descricao": "A Rádio OL é mais do que uma emissora: é a sua companhia de todos os momentos. Com uma programação moderna, interativa e cheia de boas vibrações, estamos conectados com você 24 horas por dia, levando música, informação e entretenimento em um só lugar. Criada por Osmar Lisboa, a Rádio OL nasceu com a missão de aproximar pessoas por meio do som, com conteúdo leve, autêntico e feito com paixão. RÁDIO OL – A Nossa Rádio! 🎧 O som que conecta você ao que há de melhor!",
+      "logo": "https://raw.githubusercontent.com/contatofalapopular-bit/CentralRadiosBrasil-Dados/main/solicitacoes/logos/2026/CRB-20260804-BCBA35F2.png",
+      "tipo": "Web",
+      "frequencia": "",
+      "site": "https://radiool.com.br/",
+      "localizacao": {
+        "pais": "Brasil",
+        "uf": "MA",
+        "cidade": "Raposa",
+        "cep": "",
+        "endereco": "",
+        "latitude": null,
+        "longitude": null
+      },
+      "classificacao": {
+        "categoriaPrincipal": "Eclética",
+        "categorias": [
+          "Eclética"
+        ],
+        "idioma": "pt-BR",
+        "tags": []
+      },
+      "contato": {
+        "telefone": "",
+        "whatsapp": "(98) 98732-3341",
+        "email": "radiool.anossaradio@gmail.com"
+      },
+      "redesSociais": {
+        "facebook": "",
+        "instagram": "",
+        "youtube": ""
+      },
+      "statusCadastro": "publicada",
+      "plano": "gratuito",
+      "status": {
+        "ativa": true,
+        "publica": true,
+        "verificada": false,
+        "destaque": false
+      },
+      "streams": [
+        {
+          "id": "stream-1785841965699",
+          "nome": "Principal",
+          "url": "https://stm1.colossocast.com.br:7106/stream",
+          "principal": true,
+          "protocolo": "HTTPS",
+          "codec": "não informado",
+          "bitrate": null,
+          "monitoramento": {
+            "status": "nao_testado",
+            "ultimaVerificacao": null,
+            "tempoRespostaMs": null
+          }
+        }
+      ],
+      "streamPrincipal": {
+        "id": "stream-1785841965699",
+        "url": "https://stm1.colossocast.com.br:7106/stream",
+        "codec": "não informado",
+        "bitrate": null
+      },
+      "seloOficial": {
+        "status": "nao_solicitado",
+        "codigo": "",
+        "dominio": "",
+        "metodo": "nao_definido",
+        "ultimaVerificacao": "2026-08-04T08:13"
+      },
+      "observacoes": "Importada da solicitação CRB-20260804-BCBA35F2. Stream validado automaticamente: HE-AAC/AAC+ em HTTPS.",
+      "criadoEm": "2026-08-04T11:12:45.699Z",
+      "atualizadoEm": "2026-08-04T11:13:27.925Z"
     },
     {
       "id": "radio-vida-natal-1785627937391",
