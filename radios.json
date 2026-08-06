@@ -1,20 +1,20 @@
 {
   "schemaVersion": "3.1.4",
-  "generatedAt": "2026-08-05T01:08:11.514Z",
-  "datasetVersion": "3.11.0",
+  "generatedAt": "2026-08-06T01:30:55.111Z",
+  "datasetVersion": "3.11.1",
   "catalogo": {
     "nome": "Central Rádios Brasil",
     "pais": "Brasil",
     "idioma": "pt-BR",
     "origem": "contatofalapopular-bit/CentralRadiosBrasil-Dados",
-    "geradoEm": "2026-08-05T01:08:11.514Z",
-    "versaoPainel": "3.11.0"
+    "geradoEm": "2026-08-06T01:30:55.111Z",
+    "versaoPainel": "3.11.1"
   },
   "totais": {
-    "emissoras": 19,
-    "streams": 19,
+    "emissoras": 20,
+    "streams": 20,
     "estados": 12,
-    "cidades": 19,
+    "cidades": 20,
     "categorias": 4,
     "verificadas": 1
   },
@@ -663,6 +663,86 @@
       "observacoes": "Importada da solicitação CRB-20260801-A2AA38AA. Stream validado automaticamente: MP3 em HTTPS.",
       "criadoEm": "2026-08-01T23:47:31.841Z",
       "atualizadoEm": "2026-08-01T23:48:40.513Z"
+    },
+    {
+      "id": "radio-estudio-gospel-1785979826260",
+      "slug": "radio-estudio-gospel",
+      "nome": "RÁDIO ESTÚDIO GOSPEL",
+      "nomeFantasia": "RÁDIO ESTÚDIO GOSPEL",
+      "razaoSocial": "",
+      "slogan": "",
+      "descricao": "Uma rádio com propósito alcançar onde a frequência não chega levando boas novas, conteúdo cristão com slogan, O SOM QUE VOCÊ AMA!",
+      "logo": "https://raw.githubusercontent.com/contatofalapopular-bit/CentralRadiosBrasil-Dados/main/solicitacoes/logos/2026/CRB-20260805-2427273A.png",
+      "tipo": "Web",
+      "frequencia": "",
+      "site": "https://stream.zeno.fm/awqghylvz7xvv",
+      "localizacao": {
+        "pais": "Brasil",
+        "uf": "MG",
+        "cidade": "Barbacena",
+        "cep": "",
+        "endereco": "",
+        "latitude": null,
+        "longitude": null
+      },
+      "classificacao": {
+        "categoriaPrincipal": "Gospel",
+        "categorias": [
+          "Gospel"
+        ],
+        "idioma": "pt-BR",
+        "tags": []
+      },
+      "contato": {
+        "telefone": "",
+        "whatsapp": "(32) 98472-3112",
+        "email": "marceloumbelino2@gmail.com"
+      },
+      "redesSociais": {
+        "facebook": "",
+        "instagram": "",
+        "youtube": ""
+      },
+      "statusCadastro": "publicada",
+      "plano": "gratuito",
+      "status": {
+        "ativa": true,
+        "publica": true,
+        "verificada": false,
+        "destaque": false
+      },
+      "streams": [
+        {
+          "id": "stream-1785979826260",
+          "nome": "Principal",
+          "url": "https://stream.zeno.fm/awqghylvz7xvv",
+          "principal": true,
+          "protocolo": "HTTPS",
+          "codec": "não informado",
+          "bitrate": null,
+          "monitoramento": {
+            "status": "nao_testado",
+            "ultimaVerificacao": null,
+            "tempoRespostaMs": null
+          }
+        }
+      ],
+      "streamPrincipal": {
+        "id": "stream-1785979826260",
+        "url": "https://stream.zeno.fm/awqghylvz7xvv",
+        "codec": "não informado",
+        "bitrate": null
+      },
+      "seloOficial": {
+        "status": "nao_solicitado",
+        "codigo": "",
+        "dominio": "",
+        "metodo": "nao_definido",
+        "ultimaVerificacao": null
+      },
+      "observacoes": "Importada da solicitação CRB-20260805-2427273A. Stream validado automaticamente: MP3 em HTTPS.",
+      "criadoEm": "2026-08-06T01:30:26.260Z",
+      "atualizadoEm": "2026-08-06T01:30:49.001Z"
     },
     {
       "id": "radio-fala-popular-1785545311379",
