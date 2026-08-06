@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "geradoEm": "2026-08-05T01:08:11.514Z",
-  "total": 19,
+  "geradoEm": "2026-08-06T01:30:55.111Z",
+  "total": 20,
   "radios": [
     {
       "id": "derik-ramos-radio-show-1785841848411",
@@ -96,6 +96,18 @@
       "host": "servidor33-3.brlogic.com",
       "porta": 7102,
       "caminho": "/live",
+      "ssl": true,
+      "ativa": true
+    },
+    {
+      "id": "radio-estudio-gospel-1785979826260",
+      "nome": "RÁDIO ESTÚDIO GOSPEL",
+      "cidade": "Barbacena",
+      "estado": "MG",
+      "categoria": "Gospel",
+      "host": "stream.zeno.fm",
+      "porta": 443,
+      "caminho": "/awqghylvz7xvv",
       "ssl": true,
       "ativa": true
     },
