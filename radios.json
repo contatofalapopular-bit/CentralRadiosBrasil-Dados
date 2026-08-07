@@ -1,21 +1,21 @@
 {
   "schemaVersion": "3.1.4",
-  "generatedAt": "2026-08-06T01:30:55.111Z",
-  "datasetVersion": "3.11.1",
+  "generatedAt": "2026-08-07T10:38:44.466Z",
+  "datasetVersion": "3.15.0",
   "catalogo": {
     "nome": "Central Rádios Brasil",
     "pais": "Brasil",
     "idioma": "pt-BR",
     "origem": "contatofalapopular-bit/CentralRadiosBrasil-Dados",
-    "geradoEm": "2026-08-06T01:30:55.111Z",
-    "versaoPainel": "3.11.1"
+    "geradoEm": "2026-08-07T10:38:44.466Z",
+    "versaoPainel": "3.15.0"
   },
   "totais": {
-    "emissoras": 20,
-    "streams": 20,
+    "emissoras": 22,
+    "streams": 22,
     "estados": 12,
-    "cidades": 20,
-    "categorias": 4,
+    "cidades": 22,
+    "categorias": 5,
     "verificadas": 1
   },
   "validacao": {
@@ -745,6 +745,86 @@
       "atualizadoEm": "2026-08-06T01:30:49.001Z"
     },
     {
+      "id": "radio-eu-sou-goias-1786098799623",
+      "slug": "radio-eu-sou-goias",
+      "nome": "RÁDIO EU SOU GOIÁS",
+      "nomeFantasia": "RÁDIO EU SOU GOIÁS",
+      "razaoSocial": "",
+      "slogan": "",
+      "descricao": "Essa é uma estação de rádio brasileira que conta com uma programação exclusiva, feita por e para os torcedores do Goiás Esporte Clube. Ela é transmitida sete dias da semana, por 24 horas.",
+      "logo": "https://raw.githubusercontent.com/contatofalapopular-bit/CentralRadiosBrasil-Dados/main/solicitacoes/logos/2026/CRB-20260806-D7EF8175.png",
+      "tipo": "Web",
+      "frequencia": "",
+      "site": "https://www.eusougoias.com.br",
+      "localizacao": {
+        "pais": "Brasil",
+        "uf": "GO",
+        "cidade": "Goiânia",
+        "cep": "",
+        "endereco": "",
+        "latitude": null,
+        "longitude": null
+      },
+      "classificacao": {
+        "categoriaPrincipal": "Esportes",
+        "categorias": [
+          "Esportes"
+        ],
+        "idioma": "pt-BR",
+        "tags": []
+      },
+      "contato": {
+        "telefone": "",
+        "whatsapp": "(62) 98145-1435",
+        "email": "siteeusougoias@gmail.com"
+      },
+      "redesSociais": {
+        "facebook": "",
+        "instagram": "",
+        "youtube": ""
+      },
+      "statusCadastro": "publicada",
+      "plano": "gratuito",
+      "status": {
+        "ativa": true,
+        "publica": true,
+        "verificada": false,
+        "destaque": false
+      },
+      "streams": [
+        {
+          "id": "stream-1786098799623",
+          "nome": "Principal",
+          "url": "https://live9.livemus.com.br:27374/stream",
+          "principal": true,
+          "protocolo": "HTTPS",
+          "codec": "não informado",
+          "bitrate": null,
+          "monitoramento": {
+            "status": "nao_testado",
+            "ultimaVerificacao": null,
+            "tempoRespostaMs": null
+          }
+        }
+      ],
+      "streamPrincipal": {
+        "id": "stream-1786098799623",
+        "url": "https://live9.livemus.com.br:27374/stream",
+        "codec": "não informado",
+        "bitrate": null
+      },
+      "seloOficial": {
+        "status": "nao_solicitado",
+        "codigo": "",
+        "dominio": "",
+        "metodo": "nao_definido",
+        "ultimaVerificacao": "2026-08-07T07:33"
+      },
+      "observacoes": "Importada da solicitação CRB-20260806-D7EF8175. Stream validado automaticamente: HE-AAC/AAC+ em HTTPS.",
+      "criadoEm": "2026-08-07T10:33:19.620Z",
+      "atualizadoEm": "2026-08-07T10:34:54.054Z"
+    },
+    {
       "id": "radio-fala-popular-1785545311379",
       "slug": "radio-fala-popular",
       "nome": "Rádio Fala Popular",
@@ -1143,6 +1223,86 @@
       "observacoes": "Importada da solicitação CRB-20260804-77FF3F20. Stream validado automaticamente: HE-AAC/AAC+ em HTTPS.",
       "criadoEm": "2026-08-05T01:04:45.868Z",
       "atualizadoEm": "2026-08-05T01:05:31.773Z"
+    },
+    {
+      "id": "radio-planet-gospel-1786098927333",
+      "slug": "radio-planet-gospel",
+      "nome": "Rádio Planet Gospel",
+      "nomeFantasia": "Rádio Planet Gospel",
+      "razaoSocial": "",
+      "slogan": "",
+      "descricao": "Uma emissora Gospel com uma programação 24 horas no Ar, com uma programação profissional e variada das musicas evangélicas com uma grande audiência em todo o brasil",
+      "logo": "https://raw.githubusercontent.com/contatofalapopular-bit/CentralRadiosBrasil-Dados/main/solicitacoes/logos/2026/CRB-20260806-DB5BB4B3.jpg",
+      "tipo": "Web",
+      "frequencia": "",
+      "site": "https://radioplanetgospel.com/",
+      "localizacao": {
+        "pais": "Brasil",
+        "uf": "MA",
+        "cidade": "São Luís",
+        "cep": "",
+        "endereco": "",
+        "latitude": null,
+        "longitude": null
+      },
+      "classificacao": {
+        "categoriaPrincipal": "Gospel",
+        "categorias": [
+          "Gospel"
+        ],
+        "idioma": "pt-BR",
+        "tags": []
+      },
+      "contato": {
+        "telefone": "",
+        "whatsapp": "(98) 98865-2493",
+        "email": "diretoria@radioplanetgospel.com"
+      },
+      "redesSociais": {
+        "facebook": "",
+        "instagram": "",
+        "youtube": ""
+      },
+      "statusCadastro": "publicada",
+      "plano": "gratuito",
+      "status": {
+        "ativa": true,
+        "publica": true,
+        "verificada": false,
+        "destaque": false
+      },
+      "streams": [
+        {
+          "id": "stream-1786098927333",
+          "nome": "Principal",
+          "url": "https://stmplay.com/listen/radioplanet/radio.mp3",
+          "principal": true,
+          "protocolo": "HTTPS",
+          "codec": "não informado",
+          "bitrate": null,
+          "monitoramento": {
+            "status": "nao_testado",
+            "ultimaVerificacao": null,
+            "tempoRespostaMs": null
+          }
+        }
+      ],
+      "streamPrincipal": {
+        "id": "stream-1786098927333",
+        "url": "https://stmplay.com/listen/radioplanet/radio.mp3",
+        "codec": "não informado",
+        "bitrate": null
+      },
+      "seloOficial": {
+        "status": "nao_solicitado",
+        "codigo": "",
+        "dominio": "",
+        "metodo": "nao_definido",
+        "ultimaVerificacao": null
+      },
+      "observacoes": "Importada da solicitação CRB-20260806-DB5BB4B3. Stream validado automaticamente: HE-AAC/AAC+ em HTTPS.",
+      "criadoEm": "2026-08-07T10:35:27.333Z",
+      "atualizadoEm": "2026-08-07T10:38:33.637Z"
     },
     {
       "id": "radio-vida-natal-1785627937391",
