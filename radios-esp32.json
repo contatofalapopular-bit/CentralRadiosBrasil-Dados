@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "geradoEm": "2026-08-06T01:30:55.111Z",
-  "total": 20,
+  "geradoEm": "2026-08-07T10:38:44.466Z",
+  "total": 22,
   "radios": [
     {
       "id": "derik-ramos-radio-show-1785841848411",
@@ -112,6 +112,18 @@
       "ativa": true
     },
     {
+      "id": "radio-eu-sou-goias-1786098799623",
+      "nome": "RÁDIO EU SOU GOIÁS",
+      "cidade": "Goiânia",
+      "estado": "GO",
+      "categoria": "Esportes",
+      "host": "live9.livemus.com.br",
+      "porta": 27374,
+      "caminho": "/stream",
+      "ssl": true,
+      "ativa": true
+    },
+    {
       "id": "radio-fala-popular-1785545311379",
       "nome": "Rádio Fala Popular",
       "cidade": "Rio Verde",
@@ -168,6 +180,18 @@
       "host": "stm1.colossocast.com.br",
       "porta": 7020,
       "caminho": "/stream%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20https://stm1.colossocast.com.br:7020/;",
+      "ssl": true,
+      "ativa": true
+    },
+    {
+      "id": "radio-planet-gospel-1786098927333",
+      "nome": "Rádio Planet Gospel",
+      "cidade": "São Luís",
+      "estado": "MA",
+      "categoria": "Gospel",
+      "host": "stmplay.com",
+      "porta": 443,
+      "caminho": "/listen/radioplanet/radio.mp3",
       "ssl": true,
       "ativa": true
     },
