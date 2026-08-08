@@ -1,20 +1,20 @@
 {
   "schemaVersion": "3.1.4",
-  "generatedAt": "2026-08-07T10:38:44.466Z",
+  "generatedAt": "2026-08-08T16:24:35.479Z",
   "datasetVersion": "3.15.0",
   "catalogo": {
     "nome": "Central Rádios Brasil",
     "pais": "Brasil",
     "idioma": "pt-BR",
     "origem": "contatofalapopular-bit/CentralRadiosBrasil-Dados",
-    "geradoEm": "2026-08-07T10:38:44.466Z",
+    "geradoEm": "2026-08-08T16:24:35.479Z",
     "versaoPainel": "3.15.0"
   },
   "totais": {
-    "emissoras": 22,
-    "streams": 22,
+    "emissoras": 25,
+    "streams": 25,
     "estados": 12,
-    "cidades": 22,
+    "cidades": 25,
     "categorias": 5,
     "verificadas": 1
   },
@@ -505,6 +505,86 @@
       "atualizadoEm": "2026-08-03T00:33:07.890Z"
     },
     {
+      "id": "radio-cultura-fm-106-3-1786206045008",
+      "slug": "radio-cultura-fm-106-3",
+      "nome": "Rádio Cultura FM 106.3",
+      "nomeFantasia": "Rádio Cultura FM 106.3",
+      "razaoSocial": "",
+      "slogan": "",
+      "descricao": "Uma emissora há 27 anos no ar",
+      "logo": "https://raw.githubusercontent.com/contatofalapopular-bit/CentralRadiosBrasil-Dados/main/solicitacoes/logos/2026/CRB-20260807-EF48B8BE.png",
+      "tipo": "Web",
+      "frequencia": "",
+      "site": "https://www.culturafm106.com.br/",
+      "localizacao": {
+        "pais": "Brasil",
+        "uf": "MA",
+        "cidade": "Paço do Lumiar",
+        "cep": "",
+        "endereco": "",
+        "latitude": null,
+        "longitude": null
+      },
+      "classificacao": {
+        "categoriaPrincipal": "Eclética",
+        "categorias": [
+          "Eclética"
+        ],
+        "idioma": "pt-BR",
+        "tags": []
+      },
+      "contato": {
+        "telefone": "",
+        "whatsapp": "(98) 98752-7242",
+        "email": "culturafm106.3@gmail.com"
+      },
+      "redesSociais": {
+        "facebook": "",
+        "instagram": "",
+        "youtube": ""
+      },
+      "statusCadastro": "publicada",
+      "plano": "gratuito",
+      "status": {
+        "ativa": true,
+        "publica": true,
+        "verificada": false,
+        "destaque": false
+      },
+      "streams": [
+        {
+          "id": "stream-1786206045008",
+          "nome": "Principal",
+          "url": "https://wms5.webradios.com.br:18948/8948",
+          "principal": true,
+          "protocolo": "HTTPS",
+          "codec": "não informado",
+          "bitrate": null,
+          "monitoramento": {
+            "status": "nao_testado",
+            "ultimaVerificacao": null,
+            "tempoRespostaMs": null
+          }
+        }
+      ],
+      "streamPrincipal": {
+        "id": "stream-1786206045008",
+        "url": "https://wms5.webradios.com.br:18948/8948",
+        "codec": "não informado",
+        "bitrate": null
+      },
+      "seloOficial": {
+        "status": "nao_solicitado",
+        "codigo": "",
+        "dominio": "",
+        "metodo": "nao_definido",
+        "ultimaVerificacao": null
+      },
+      "observacoes": "Importada da solicitação CRB-20260807-EF48B8BE. Stream validado automaticamente: AAC em HTTPS.",
+      "criadoEm": "2026-08-08T16:20:45.007Z",
+      "atualizadoEm": "2026-08-08T16:21:23.206Z"
+    },
+    {
       "id": "radio-e-web-tv-mais24-horas-no-ar-co-voce-e-ora-voce-trazendo-informacao-em-tempo-real-1785848265660",
       "slug": "radio-e-web-tv-mais24-horas-no-ar-co-voce-e-ora-voce-trazendo-informacao-em-tempo-real",
       "nome": "Rádio e Web TV Mais",
@@ -983,6 +1063,166 @@
       "observacoes": "Importada da solicitação CRB-20260803-B0333082. Stream validado automaticamente: HE-AAC/AAC+ em HTTPS.",
       "criadoEm": "2026-08-04T11:14:07.916Z",
       "atualizadoEm": "2026-08-04T11:14:35.149Z"
+    },
+    {
+      "id": "radio-livre-som-curitiba-1786206240020",
+      "slug": "radio-livre-som-curitiba",
+      "nome": "Rádio Livre Som Curitiba",
+      "nomeFantasia": "Rádio Livre Som Curitiba",
+      "razaoSocial": "",
+      "slogan": "",
+      "descricao": "A Rádio Livre Som Curitiba nasceu para levar aos apaixonados pela música sertaneja uma programação de alta qualidade, reunindo os maiores clássicos, modões inesquecíveis e os lançamentos que conquistam o Brasil. Com transmissão 24 horas por dia pela internet, nossa missão é proporcionar entretenimento, emoção e companhia para ouvintes de todas as regiões.",
+      "logo": "https://raw.githubusercontent.com/contatofalapopular-bit/CentralRadiosBrasil-Dados/main/solicitacoes/logos/2026/CRB-20260807-DC193F36.png",
+      "tipo": "Web",
+      "frequencia": "",
+      "site": "https://www.livresom.com.br/",
+      "localizacao": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Curitiba",
+        "cep": "",
+        "endereco": "",
+        "latitude": null,
+        "longitude": null
+      },
+      "classificacao": {
+        "categoriaPrincipal": "Sertanejo",
+        "categorias": [
+          "Sertanejo"
+        ],
+        "idioma": "pt-BR",
+        "tags": []
+      },
+      "contato": {
+        "telefone": "",
+        "whatsapp": "(41) 99535-9239",
+        "email": "contato@livresom.com.br"
+      },
+      "redesSociais": {
+        "facebook": "",
+        "instagram": "",
+        "youtube": ""
+      },
+      "statusCadastro": "publicada",
+      "plano": "gratuito",
+      "status": {
+        "ativa": true,
+        "publica": true,
+        "verificada": false,
+        "destaque": false
+      },
+      "streams": [
+        {
+          "id": "stream-1786206240020",
+          "nome": "Principal",
+          "url": "https://painel.livresom.com.br:8010/radio",
+          "principal": true,
+          "protocolo": "HTTPS",
+          "codec": "não informado",
+          "bitrate": null,
+          "monitoramento": {
+            "status": "nao_testado",
+            "ultimaVerificacao": null,
+            "tempoRespostaMs": null
+          }
+        }
+      ],
+      "streamPrincipal": {
+        "id": "stream-1786206240020",
+        "url": "https://painel.livresom.com.br:8010/radio",
+        "codec": "não informado",
+        "bitrate": null
+      },
+      "seloOficial": {
+        "status": "nao_solicitado",
+        "codigo": "",
+        "dominio": "",
+        "metodo": "nao_definido",
+        "ultimaVerificacao": null
+      },
+      "observacoes": "Importada da solicitação CRB-20260807-DC193F36. Stream validado automaticamente: AAC em HTTPS.",
+      "criadoEm": "2026-08-08T16:24:00.020Z",
+      "atualizadoEm": "2026-08-08T16:24:17.987Z"
+    },
+    {
+      "id": "radio-livre-som-fazenda-rio-grande-1786206188579",
+      "slug": "radio-livre-som-fazenda-rio-grande",
+      "nome": "Rádio Livre Som Fazenda Rio Grande",
+      "nomeFantasia": "Rádio Livre Som Fazenda Rio Grande",
+      "razaoSocial": "",
+      "slogan": "",
+      "descricao": "A Rádio Livre Som Fazenda Rio Grande nasceu com o propósito de levar música, informação, entretenimento e comunicação de qualidade para toda a comunidade. Nossa programação foi criada para aproximar pessoas, valorizar a cultura local e proporcionar uma experiência agradável aos ouvintes, durante as 24 horas do dia.",
+      "logo": "https://raw.githubusercontent.com/contatofalapopular-bit/CentralRadiosBrasil-Dados/main/solicitacoes/logos/2026/CRB-20260807-8DF96CC5.png",
+      "tipo": "Web",
+      "frequencia": "",
+      "site": "https://www.radiolivresom.com.br/",
+      "localizacao": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Fazenda Rio Grande",
+        "cep": "",
+        "endereco": "",
+        "latitude": null,
+        "longitude": null
+      },
+      "classificacao": {
+        "categoriaPrincipal": "Sertanejo",
+        "categorias": [
+          "Sertanejo"
+        ],
+        "idioma": "pt-BR",
+        "tags": []
+      },
+      "contato": {
+        "telefone": "",
+        "whatsapp": "(41) 9535-9239",
+        "email": "contato@radiolivresom.com.br"
+      },
+      "redesSociais": {
+        "facebook": "",
+        "instagram": "",
+        "youtube": ""
+      },
+      "statusCadastro": "publicada",
+      "plano": "gratuito",
+      "status": {
+        "ativa": true,
+        "publica": true,
+        "verificada": false,
+        "destaque": false
+      },
+      "streams": [
+        {
+          "id": "stream-1786206188579",
+          "nome": "Principal",
+          "url": "https://painel.livresom.com.br:8020/radio",
+          "principal": true,
+          "protocolo": "HTTPS",
+          "codec": "não informado",
+          "bitrate": null,
+          "monitoramento": {
+            "status": "nao_testado",
+            "ultimaVerificacao": null,
+            "tempoRespostaMs": null
+          }
+        }
+      ],
+      "streamPrincipal": {
+        "id": "stream-1786206188579",
+        "url": "https://painel.livresom.com.br:8020/radio",
+        "codec": "não informado",
+        "bitrate": null
+      },
+      "seloOficial": {
+        "status": "nao_solicitado",
+        "codigo": "",
+        "dominio": "",
+        "metodo": "nao_definido",
+        "ultimaVerificacao": null
+      },
+      "observacoes": "Importada da solicitação CRB-20260807-8DF96CC5. Stream validado automaticamente: AAC em HTTPS.",
+      "criadoEm": "2026-08-08T16:23:08.578Z",
+      "atualizadoEm": "2026-08-08T16:23:28.755Z"
     },
     {
       "id": "radio-modao-fm-1785891961751",
