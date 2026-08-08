@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "geradoEm": "2026-08-07T10:38:44.466Z",
-  "total": 22,
+  "geradoEm": "2026-08-08T16:24:35.479Z",
+  "total": 25,
   "radios": [
     {
       "id": "derik-ramos-radio-show-1785841848411",
@@ -76,6 +76,18 @@
       "ativa": true
     },
     {
+      "id": "radio-cultura-fm-106-3-1786206045008",
+      "nome": "Rádio Cultura FM 106.3",
+      "cidade": "Paço do Lumiar",
+      "estado": "MA",
+      "categoria": "Eclética",
+      "host": "wms5.webradios.com.br",
+      "porta": 18948,
+      "caminho": "/8948",
+      "ssl": true,
+      "ativa": true
+    },
+    {
       "id": "radio-e-web-tv-mais24-horas-no-ar-co-voce-e-ora-voce-trazendo-informacao-em-tempo-real-1785848265660",
       "nome": "Rádio e Web TV Mais",
       "cidade": "Contagem",
@@ -144,6 +156,30 @@
       "host": "stm.colossocast.com.br",
       "porta": 7180,
       "caminho": "/stream",
+      "ssl": true,
+      "ativa": true
+    },
+    {
+      "id": "radio-livre-som-curitiba-1786206240020",
+      "nome": "Rádio Livre Som Curitiba",
+      "cidade": "Curitiba",
+      "estado": "PR",
+      "categoria": "Sertanejo",
+      "host": "painel.livresom.com.br",
+      "porta": 8010,
+      "caminho": "/radio",
+      "ssl": true,
+      "ativa": true
+    },
+    {
+      "id": "radio-livre-som-fazenda-rio-grande-1786206188579",
+      "nome": "Rádio Livre Som Fazenda Rio Grande",
+      "cidade": "Fazenda Rio Grande",
+      "estado": "PR",
+      "categoria": "Sertanejo",
+      "host": "painel.livresom.com.br",
+      "porta": 8020,
+      "caminho": "/radio",
       "ssl": true,
       "ativa": true
     },
